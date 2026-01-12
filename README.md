@@ -7,6 +7,19 @@
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&pause=1200&center=true&vCenter=true&width=650&lines=Production-Ready+%7C+Software+Engineer;Full-Stack+Developer;Data+Engineer+%7C+Cloud+Engineer;Cloud-Native+Systems+%26+AI+Pipelines;AI-Enabled+Systems+%7C+AI+Developer;Artificial+Intelligence+%7C+Machine+Learning;Cloud+Architecture+%7C+Cybersecurity;" />
 </p>
 
+### About
+
+I am **Abhishek Yadav**, a Computer Science professional and production-focused software engineer.  
+I design and build **scalable, cloud-native systems** and **AI-enabled applications**, with expertise in **full-stack development**, **data engineering**, and **secure backend services**. My work emphasizes **system design, performance, and reliability**.
+
+I specialize in:
+- Designing and deploying cloud-native architectures
+- Building production-ready APIs and distributed services
+- Developing data pipelines and AI-assisted systems
+- Applying security best practices across the stack
+
+I take **end-to-end ownership** — from data ingestion and modeling to scalable deployment and monitoring. I prioritize **clean design, reproducibility, and production readiness** over experimental-only solutions.
+
 
 <p align="center">
   <a href="YOUR_PORTFOLIO_LINK">
