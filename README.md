@@ -67,7 +67,7 @@ I take **end-to-end ownership** — from data ingestion and modeling to scalable
 <td><img src="https://skillicons.dev/icons?i=react"/></td>
 <td><img src="https://skillicons.dev/icons?i=nextjs"/></td>
 <td><img src="https://skillicons.dev/icons?i=typescript"/></td>
-<td><img src="https://skillicons.dev/icons?i=MaterialUI(MUI)"/></td>
+<td><img src="https://skillicons.dev/icons?i=shadcn"/></td>
 </tr>
 
 
