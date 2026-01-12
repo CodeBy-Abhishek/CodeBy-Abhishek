@@ -91,9 +91,18 @@ I take **end-to-end ownership** — from data ingestion and modeling to scalable
 <td><img src="https://skillicons.dev/icons?i=tensorflow"/></td>
 <td><img src="https://skillicons.dev/icons?i=pytorch"/></td>
 <td><img src="https://skillicons.dev/icons?i=matlab"/></td>
-<td><img src="https://skillicons.dev/icons?i=tableau"/></td>
+<!-- <td><img src="https://skillicons.dev/icons?i=tableau"/></td>
 <td><img src="https://skillicons.dev/icons?i=openai"/></td>
-<td><img src="https://skillicons.dev/icons?i=databricks"/></td>
+<td><img src="https://skillicons.dev/icons?i=databricks"/></td> -->
+<td>
+  <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white"/>
+</td>
+<td>
+  <img src="https://img.shields.io/badge/OpenAI-000000?style=for-the-badge&logo=openai&logoColor=white"/>
+</td>
+<td>
+  <img src="https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white"/>
+</td>
 </tr>
 
 <tr>
