@@ -52,6 +52,51 @@ I take **end-to-end ownership** — from data ingestion and modeling to scalable
   <img src="https://img.shields.io/badge/SQL-003B57?style=for-the-badge" />
 </p>
 
+## 🧩 Tech Stack
+
+<table align="center">
+<tr>
+<td align="center">Python</td>
+<td align="center">R</td>
+<td align="center">MATLAB</td>
+<td align="center">SQL</td>
+<td align="center">PostgreSQL</td>
+<td align="center">MongoDB</td>
+<td align="center">Redis</td>
+</tr>
+
+<tr>
+<td><img src="https://skillicons.dev/icons?i=python"/></td>
+<td><img src="https://skillicons.dev/icons?i=r"/></td>
+<td><img src="https://skillicons.dev/icons?i=matlab"/></td>
+<td><img src="https://skillicons.dev/icons?i=sql"/></td>
+<td><img src="https://skillicons.dev/icons?i=postgres"/></td>
+<td><img src="https://skillicons.dev/icons?i=mongodb"/></td>
+<td><img src="https://skillicons.dev/icons?i=redis"/></td>
+</tr>
+
+<tr>
+<td><img src="https://skillicons.dev/icons?i=aws"/></td>
+<td><img src="https://skillicons.dev/icons?i=docker"/></td>
+<td><img src="https://skillicons.dev/icons?i=tensorflow"/></td>
+<td><img src="https://skillicons.dev/icons?i=pytorch"/></td>
+<td><img src="https://skillicons.dev/icons?i=tableau"/></td>
+<td><img src="https://skillicons.dev/icons?i=openai"/></td>
+<td><img src="https://skillicons.dev/icons?i=databricks"/></td>
+</tr>
+
+<tr>
+<td><img src="https://skillicons.dev/icons?i=spark"/></td>
+<td><img src="https://skillicons.dev/icons?i=iceberg"/></td>
+<td><img src="https://skillicons.dev/icons?i=snowflake"/></td>
+<td><img src="https://skillicons.dev/icons?i=minio"/></td>
+<td><img src="https://skillicons.dev/icons?i=vscode"/></td>
+<td><img src="https://skillicons.dev/icons?i=linux"/></td>
+<td><img src="https://skillicons.dev/icons?i=git"/></td>
+</tr>
+</table>
+
+
 
 ## GitHub Analytics
 
