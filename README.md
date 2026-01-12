@@ -68,7 +68,7 @@ I take **end-to-end ownership** — from data ingestion and modeling to scalable
 <td><img src="https://skillicons.dev/icons?i=nextjs"/></td>
 <td><img src="https://skillicons.dev/icons?i=typescript"/></td>
 <!-- <td><img src="https://skillicons.dev/icons?i=shadcn"/></td> -->
- <td><img src="https://raw.githubusercontent.com/USERNAME/REPO/main/assets/shadcn.svg" height="48" /></td>
+ <td><img src="https://raw.githubusercontent.com/CodeBy-Abhishek/Abhishek-Yadav/main/assets/shadcn.svg" height="48" /></td>
 </tr>
 
 
