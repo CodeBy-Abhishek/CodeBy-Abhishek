@@ -3,6 +3,10 @@
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Inter&size=24&pause=1200&color=1F6FEB&center=true&vCenter=true&width=700&lines=Software+Engineer;Full-Stack+Developer;AI-Enabled+Systems+%7C+AI+Developer;Cloud+Architecture+%7C+Cybersecurity" />
 </p>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&pause=1200&center=true&vCenter=true&width=650&lines=Data+Engineer+%7C+ML+Engineer;Cloud-Native+Systems+%26+AI+Pipelines;Production-Ready+Machine+Learning" />
+</p>
+
 
 <p align="center">
   <a href="YOUR_PORTFOLIO_LINK">
@@ -35,6 +39,8 @@
 ![Next.js](https://img.shields.io/badge/Next.js-0B1C2D?style=for-the-badge&logo=next.js)
 <p>
 <img src="https://skillicons.dev/icons?i=postgres,mongodb,redis&perline=6" />
+
+  
 </p>
 
 
