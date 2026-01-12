@@ -67,7 +67,6 @@ I take **end-to-end ownership** — from data ingestion and modeling to scalable
 <td><img src="https://skillicons.dev/icons?i=react"/></td>
 <td><img src="https://skillicons.dev/icons?i=nextjs"/></td>
 <td><img src="https://skillicons.dev/icons?i=typescript"/></td>
-<!-- <td><img src="https://skillicons.dev/icons?i=shadcn"/></td> -->
 <td align="center">
   <img src="https://skillicons.dev/icons?i=mui" />
 </td>
@@ -92,9 +91,15 @@ I take **end-to-end ownership** — from data ingestion and modeling to scalable
 <td><img src="https://skillicons.dev/icons?i=tensorflow"/></td>
 <td><img src="https://skillicons.dev/icons?i=pytorch"/></td>
 <td><img src="https://skillicons.dev/icons?i=matlab"/></td>
-<td><img src="https://skillicons.dev/icons?i=tableau"/></td>
-<td><img src="https://skillicons.dev/icons?i=openai"/></td>
-<td><img src="https://skillicons.dev/icons?i=databricks"/></td>
+<td align="center">
+  <img src="https://skillicons.dev/icons?i=tableau" />
+</td>
+<td align="center">
+  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/openai.svg" height="36" />
+</td>
+<td align="center">
+      <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/databricks.svg" height="36" />
+    </td>
 </tr>
 
 <tr>
