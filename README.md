@@ -36,43 +36,7 @@ I take **end-to-end ownership** — from data ingestion and modeling to scalable
 ### Core Engineering Skills
 ### Tech Stack 
 
-### Frontend
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,tailwind,react,nextjs&perline=7" />
-</p>
-### Backend & APIs
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=nodejs,express,python,django,fastapi&perline=6" />
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/REST%20API-02569B?style=for-the-badge&logo=fastapi&logoColor=white" />
-</p>
-### Databases
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb&perline=6" />
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=postgresql&logoColor=white" />
-</p>
-### Cloud & DevOps
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=aws,docker,linux,git,github&perline=7" />
-</p>
-### AI / Machine Learning
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch&perline=6" />
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
-</p>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=postman,vscode&perline=6" />
-</p>
 <p align="center">
   <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" />
 </p>
