@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Abhishek Yadav</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&pause=1200&center=true&vCenter=true&width=650&lines=Production-Ready+%7C+Software+Engineer;Full-Stack+Developer;Data+Engineer+%7C+Cloud+Engineer;Cloud-Native+Systems+%26+AI+Pipelines;AI-Enabled+Systems+%7C+AI+Developer;Artificial+Intelligence+%7C+Machine+Learning;Cloud+Architecture+%7C+Cybersecurity;" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&pause=1200&center=true&vCenter=true&width=650&lines=Production-Ready+%7C+Software+Engineer;Full-Stack+Developer;Data+Engineer+%7C+Cloud+Engineer;Artificial+Intelligence+%7C+Machine+Learning;AI-Enabled+Systems+%7C+AI+Developer;Cloud-Native+Systems+%7C+AI+Pipelines;Cloud+Architecture+%7C+Cybersecurity;" />
 </p>
 
 <p align="center">
@@ -48,5 +48,16 @@ I take **end-to-end ownership** — from data ingestion and modeling to scalable
 
   
 </p>
+
+| Language / Tool | Language / Tool | Language / Tool |
+|-----------------|----------------|----------------|
+| <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /> | <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" /> | <img src="https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white" /> |
+| <img src="https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=mysql&logoColor=white" /> | <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" /> | <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" /> |
+| <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" /> | <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" /> | <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" /> |
+| <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" /> | <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" /> | <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" /> |
+| <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" /> | <img src="https://img.shields.io/badge/Databricks-F58025?style=for-the-badge&logo=databricks&logoColor=white" /> | <img src="https://img.shields.io/badge/Spark-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white" /> |
+| <img src="https://img.shields.io/badge/Iceberg-1A9ACC?style=for-the-badge&logoColor=white" /> | <img src="https://img.shields.io/badge/Snowflake-168FFF?style=for-the-badge&logo=snowflake&logoColor=white" /> | <img src="https://img.shields.io/badge/MinIO-00C2A0?style=for-the-badge&logo=minio&logoColor=white" /> |
+| <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" /> | <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />_
+
 
 
