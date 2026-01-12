@@ -44,10 +44,16 @@ I take **end-to-end ownership** — from data ingestion and modeling to scalable
 ![React](https://img.shields.io/badge/React-0B1C2D?style=for-the-badge&logo=react)
 ![Next.js](https://img.shields.io/badge/Next.js-0B1C2D?style=for-the-badge&logo=next.js)
 <p>
-<img src="https://skillicons.dev/icons?i=postgres,mongodb,redis&perline=6" />
-
-  
+<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,tableau&perline=6" />
 </p>
+
+<p>
+<img src="https://skillicons.dev/icons?i=postgres,mongodb,redis&perline=6" />
+</p>
+<p>
+<img src="https://skillicons.dev/icons?i=aws,docker,linux,git,vscode&perline=6" />
+</p>
+
 
 ## GitHub Analytics
 
