@@ -66,6 +66,7 @@ I take **end-to-end ownership** — from data ingestion and modeling to scalable
 <td><img src="https://skillicons.dev/icons?i=javascript"/></td>
 <td><img src="https://skillicons.dev/icons?i=react"/></td>
 <td><img src="https://skillicons.dev/icons?i=nextjs"/></td>
+<td><img src="https://skillicons.dev/icons?i=typescript"/></td>
 <td><img src="https://skillicons.dev/icons?i=expressjs"/></td>
 </tr>
 
@@ -75,7 +76,7 @@ I take **end-to-end ownership** — from data ingestion and modeling to scalable
 <td><img src="https://skillicons.dev/icons?i=python"/></td>
 <td><img src="https://skillicons.dev/icons?i=django"/></td>
 <td><img src="https://skillicons.dev/icons?i=fastapi"/></td>
-<td><img src="https://skillicons.dev/icons?i=matlab"/></td>
+<td><img src="https://skillicons.dev/icons?i=flask"/></td>
 <td><img src="https://skillicons.dev/icons?i=mysql"/></td>
 <td><img src="https://skillicons.dev/icons?i=postgres"/></td>
 <td><img src="https://skillicons.dev/icons?i=mongodb"/></td>
@@ -86,6 +87,7 @@ I take **end-to-end ownership** — from data ingestion and modeling to scalable
 <td><img src="https://skillicons.dev/icons?i=docker"/></td>
 <td><img src="https://skillicons.dev/icons?i=tensorflow"/></td>
 <td><img src="https://skillicons.dev/icons?i=pytorch"/></td>
+<td><img src="https://skillicons.dev/icons?i=matlab"/></td>
 <td><img src="https://skillicons.dev/icons?i=tableau"/></td>
 <td><img src="https://skillicons.dev/icons?i=openai"/></td>
 <td><img src="https://skillicons.dev/icons?i=databricks"/></td>
