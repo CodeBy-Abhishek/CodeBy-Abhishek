@@ -71,6 +71,7 @@ I take **end-to-end ownership** — from data ingestion and modeling to scalable
 
 
 <tr>
+<td><img src="https://skillicons.dev/icons?i=nodejs"/></td>
 <td><img src="https://skillicons.dev/icons?i=python"/></td>
 <td><img src="https://skillicons.dev/icons?i=django"/></td>
 <td><img src="https://skillicons.dev/icons?i=fastapi"/></td>
@@ -78,7 +79,6 @@ I take **end-to-end ownership** — from data ingestion and modeling to scalable
 <td><img src="https://skillicons.dev/icons?i=mysql"/></td>
 <td><img src="https://skillicons.dev/icons?i=postgres"/></td>
 <td><img src="https://skillicons.dev/icons?i=mongodb"/></td>
-<td><img src="https://skillicons.dev/icons?i=redis"/></td>
 </tr>
 
 <tr>
@@ -92,6 +92,7 @@ I take **end-to-end ownership** — from data ingestion and modeling to scalable
 </tr>
 
 <tr>
+<td><img src="https://skillicons.dev/icons?i=redis"/></td>
 <td><img src="https://skillicons.dev/icons?i=spark"/></td>
 <td><img src="https://skillicons.dev/icons?i=iceberg"/></td>
 <td><img src="https://skillicons.dev/icons?i=snowflake"/></td>
