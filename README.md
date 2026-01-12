@@ -20,10 +20,17 @@
 </p>
 
 ### Core Engineering Skills
+<p>
+<img src="https://skillicons.dev/icons?i=python,sql,r&perline=6" />
+</p>
 
 ![Java](https://img.shields.io/badge/Java-0B1C2D?style=for-the-badge&logo=java)
 ![Python](https://img.shields.io/badge/Python-0B1C2D?style=for-the-badge&logo=python)
 ![Node.js](https://img.shields.io/badge/Node.js-0B1C2D?style=for-the-badge&logo=node.js)
 ![React](https://img.shields.io/badge/React-0B1C2D?style=for-the-badge&logo=react)
 ![Next.js](https://img.shields.io/badge/Next.js-0B1C2D?style=for-the-badge&logo=next.js)
+<p>
+<img src="https://skillicons.dev/icons?i=postgres,mongodb,redis&perline=6" />
+</p>
+
 
