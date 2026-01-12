@@ -38,21 +38,32 @@ I take **end-to-end ownership** — from data ingestion and modeling to scalable
 <img src="https://skillicons.dev/icons?i=python,sql,r&perline=6" />
 </p>
 
-![Java](https://img.shields.io/badge/Java-0B1C2D?style=for-the-badge&logo=java)
-![Python](https://img.shields.io/badge/Python-0B1C2D?style=for-the-badge&logo=python)
-![Node.js](https://img.shields.io/badge/Node.js-0B1C2D?style=for-the-badge&logo=node.js)
-![React](https://img.shields.io/badge/React-0B1C2D?style=for-the-badge&logo=react)
-![Next.js](https://img.shields.io/badge/Next.js-0B1C2D?style=for-the-badge&logo=next.js)
-<p>
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,tableau&perline=6" />
+### Tech Stack
+
+<p align="center">
+<img src="https://skillicons.dev/icons?i=java,python,nodejs,react,nextjs&perline=5" />
 </p>
 
-<p>
-<img src="https://skillicons.dev/icons?i=postgres,mongodb,redis&perline=6" />
+<p align="center">
+<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,tableau,r,mysql,postgres,mongodb,redis&perline=6" />
 </p>
-<p>
-<img src="https://skillicons.dev/icons?i=aws,docker,linux,git,vscode&perline=6" />
+
+<p align="center">
+<img src="https://skillicons.dev/icons?i=aws,docker,linux,git,vscode,matlab,iceberg,snowflake,minio&perline=6" />
 </p>
+<img src="https://skillicons.dev/icons?i=java,python,nodejs,react,nextjs&perline=5&theme=dark" />
+<p align="center">
+<a href="https://www.python.org/">
+  <img src="https://img.shields.io/badge/Python-0B1C2D?style=for-the-badge&logo=python&logoColor=white" />
+</a>
+<a href="https://www.java.com/">
+  <img src="https://img.shields.io/badge/Java-0B1C2D?style=for-the-badge&logo=java&logoColor=white" />
+</a>
+<a href="https://reactjs.org/">
+  <img src="https://img.shields.io/badge/React-0B1C2D?style=for-the-badge&logo=react&logoColor=white" />
+</a>
+</p>
+
 
 
 ## GitHub Analytics
