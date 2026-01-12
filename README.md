@@ -54,20 +54,22 @@ I take **end-to-end ownership** — from data ingestion and modeling to scalable
 
 ## 🧩 Tech Stack
 
-<table align="center">
 <tr>
-<td align="center">Python</td>
-<td align="center">R</td>
-<td align="center">MATLAB</td>
-<td align="center">SQL</td>
-<td align="center">PostgreSQL</td>
-<td align="center">MongoDB</td>
-<td align="center">Redis</td>
+<td><img src="https://skillicons.dev/icons?i=html"/></td>
+<td><img src="https://skillicons.dev/icons?i=css"/></td>
+<td><img src="https://skillicons.dev/icons?i=bootstrap"/></td>
+<td><img src="https://skillicons.dev/icons?i=tailwind"/></td>
+<td><img src="https://skillicons.dev/icons?i=javascript"/></td>
+<td><img src="https://skillicons.dev/icons?i=react"/></td>
+<td><img src="https://skillicons.dev/icons?i=nextjs"/></td>
+<td><img src="https://skillicons.dev/icons?i=express.js"/></td>
 </tr>
+
 
 <tr>
 <td><img src="https://skillicons.dev/icons?i=python"/></td>
-<td><img src="https://skillicons.dev/icons?i=r"/></td>
+<td><img src="https://skillicons.dev/icons?i=django"/></td>
+<td><img src="https://skillicons.dev/icons?i=fastapi"/></td>
 <td><img src="https://skillicons.dev/icons?i=matlab"/></td>
 <td><img src="https://skillicons.dev/icons?i=sql"/></td>
 <td><img src="https://skillicons.dev/icons?i=postgres"/></td>
