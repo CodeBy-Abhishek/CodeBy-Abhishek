@@ -68,8 +68,9 @@ I take **end-to-end ownership** — from data ingestion and modeling to scalable
 <td><img src="https://skillicons.dev/icons?i=nextjs"/></td>
 <td><img src="https://skillicons.dev/icons?i=typescript"/></td>
 <!-- <td><img src="https://skillicons.dev/icons?i=shadcn"/></td> -->
- <td align="center"><img src="https://raw.githubusercontent.com/shadcn-ui/ui/main/apps/www/public/favicon.ico" height="40" /></td>
-
+<td align="center">
+  <img src="https://skillicons.dev/icons?i=mui" />
+</td>
 </tr>
 
 
