@@ -67,7 +67,8 @@ I take **end-to-end ownership** — from data ingestion and modeling to scalable
 <td><img src="https://skillicons.dev/icons?i=react"/></td>
 <td><img src="https://skillicons.dev/icons?i=nextjs"/></td>
 <td><img src="https://skillicons.dev/icons?i=typescript"/></td>
-<td><img src="https://skillicons.dev/icons?i=shadcn"/></td>
+<!-- <td><img src="https://skillicons.dev/icons?i=shadcn"/></td> -->
+ <img src="https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=react&logoColor=white" />
 </tr>
 
 
