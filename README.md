@@ -34,13 +34,13 @@ I take **end-to-end ownership** — from data ingestion and modeling to scalable
 
 
 ### Core Engineering Skills
-### Tech Stack java,python,
+### Tech Stack java,
 
 <p align="center">
 <img src="https://skillicons.dev/icons?i=html,css,bootstrap,tailwind,javascript,react,nextjs,expressjs,nodejs&perline=9" />
 </p>
 <p align="center">
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,tableau,r,mysql,postgres,mongodb,redis&perline=6" />
+<img src="https://skillicons.dev/icons?i=python,django,FastAPI,numpy,pandas,tensorflow,pytorch,tableau,r,mysql,postgres,mongodb,redis&perline=6" />
 </p>
 <p align="center">
 <img src="https://skillicons.dev/icons?i=aws,docker,linux,git,vscode,matlab,iceberg,snowflake,minio&perline=6" />
