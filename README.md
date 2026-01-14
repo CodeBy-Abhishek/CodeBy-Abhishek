@@ -14,7 +14,7 @@
   <a href="mailto:abhishek977266@gmail.com">
     <img src="https://img.shields.io/badge/Email-C5221F?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
-  <a href="YOUR_RESUME_LINK">
+  <a href="file:///C:/Users/dell/Downloads/ABHISHEKRESUME%20(1).pdf">
     <img src="https://img.shields.io/badge/Resume-0B1C2D?style=for-the-badge&logo=readthedocs&logoColor=white" />
   </a>
 </p>
