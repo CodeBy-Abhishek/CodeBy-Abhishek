@@ -13,6 +13,7 @@
       alt="Generative AI Animation"
       width="300"
     />
+ <img https://miro.medium.com/1*06QKP2Spe8Ab_iVsCf14IA.gif  />
 </p>
 <p align="center">
   <a href="https://3-d-protfolio.vercel.app/">
