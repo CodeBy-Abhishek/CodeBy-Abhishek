@@ -1,5 +1,6 @@
-<h1 align="center">Hi, I'm Abhishek Yadav</h1>
+
 <div style="text-align: center;">
+  <h1 align="center">Hi, I'm Abhishek Yadav</h1>
   <img src="https://www.i3infosoft.com/images/service/wb-develop/generative-ai-consulting.gif" alt="Generative AI Consulting">
 </div>
 
