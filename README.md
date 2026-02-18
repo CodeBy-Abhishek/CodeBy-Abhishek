@@ -1,5 +1,8 @@
 <h1 align="center">Hi, I'm Abhishek Yadav</h1>
-<a href="https://www.i3infosoft.com/images/service/wb-develop/generative-ai-consulting.gif"></a>
+<div style="text-align: center;">
+  <img src="https://www.i3infosoft.com/images/service/wb-develop/generative-ai-consulting.gif" alt="Generative AI Consulting">
+</div>
+
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&pause=1200&center=true&vCenter=true&width=650&lines=Production-Ready+%7C+Software+Engineer;Full-Stack+Developer;Data+Engineer+%7C+Cloud+Engineer;Artificial+Intelligence+%7C+Machine+Learning;AI-Enabled+Systems+%7C+AI+Developer;Cloud-Native+Systems+%7C+AI+Pipelines;Cloud+Architecture+%7C+Cybersecurity;" />
