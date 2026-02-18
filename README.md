@@ -8,12 +8,12 @@
   </h1>
 
 </div>
-<p>
+<!-- <p>
     <img src="https://camo.githubusercontent.com/f928222254e02a35f33583861e98a9fdad4ad428041331f0a556783c94b4963f/68747470733a2f2f7777772e63617265657267756964652e636f6d2f6361726565722f77702d636f6e74656e742f75706c6f6164732f323032302f30332f66756c6c2d737461636b2d646576656c6f706d656e742e676966" 
       alt="Generative AI Animation"
       width="300"
     />
-</p>
+</p> -->
 <p align="center">
   <a href="https://3-d-protfolio.vercel.app/">
     <img src="https://img.shields.io/badge/Portfolio-FFFFFF?style=for-the-badge&logo=googlechrome&logoColor=4285F4" />
