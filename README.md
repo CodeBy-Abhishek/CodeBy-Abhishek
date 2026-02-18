@@ -2,22 +2,18 @@
 <div align="center">
 
   <h1>Hi 👋, I'm Abhishek Yadav
-    <p>
-    <img 
-      src="https://camo.githubusercontent.com/f928222254e02a35f33583861e98a9fdad4ad428041331f0a556783c94b4963f/68747470733a2f2f7777772e63617265657267756964652e636f6d2f6361726565722f77702d636f6e74656e742f75706c6f6164732f323032302f30332f66756c6c2d737461636b2d646576656c6f706d656e742e676966" 
-      alt="Generative AI Animation"
-      width="300"
-    />
-  </p>
+   <p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&pause=1200&center=true&vCenter=true&width=650&lines=Production-Ready+%7C+Software+Engineer;Full-Stack+Developer;Data+Engineer+%7C+Cloud+Engineer;Artificial+Intelligence+%7C+Machine+Learning;AI-Enabled+Systems+%7C+AI+Developer;Cloud-Native+Systems+%7C+AI+Pipelines;Cloud+Architecture+%7C+Cybersecurity;" />
+</p>
   </h1>
 
 </div>
-
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&pause=1200&center=true&vCenter=true&width=650&lines=Production-Ready+%7C+Software+Engineer;Full-Stack+Developer;Data+Engineer+%7C+Cloud+Engineer;Artificial+Intelligence+%7C+Machine+Learning;AI-Enabled+Systems+%7C+AI+Developer;Cloud-Native+Systems+%7C+AI+Pipelines;Cloud+Architecture+%7C+Cybersecurity;" />
+<p>
+    <img src="https://camo.githubusercontent.com/f928222254e02a35f33583861e98a9fdad4ad428041331f0a556783c94b4963f/68747470733a2f2f7777772e63617265657267756964652e636f6d2f6361726565722f77702d636f6e74656e742f75706c6f6164732f323032302f30332f66756c6c2d737461636b2d646576656c6f706d656e742e676966" 
+      alt="Generative AI Animation"
+      width="300"
+    />
 </p>
-
 <p align="center">
   <a href="https://3-d-protfolio.vercel.app/">
     <img src="https://img.shields.io/badge/Portfolio-FFFFFF?style=for-the-badge&logo=googlechrome&logoColor=4285F4" />
