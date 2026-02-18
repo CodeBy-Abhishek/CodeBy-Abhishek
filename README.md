@@ -1,122 +1,125 @@
-# Abhishek Yadav
 
-**Software Engineer | Full-Stack Development | Cloud & Data Engineering**
+<div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-4285F4?style=flat&logo=googlechrome&logoColor=white)](https://3-d-protfolio.vercel.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abhishek-yadav72/)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:abhishek977266@gmail.com)
+  <h1>Hi 👋, I'm Abhishek Yadav
+   <p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&pause=1200&center=true&vCenter=true&width=650&lines=Production-Ready+%7C+Software+Engineer;Full-Stack+Developer;Data+Engineer+%7C+Cloud+Engineer;Artificial+Intelligence+%7C+Machine+Learning;AI-Enabled+Systems+%7C+AI+Developer;Cloud-Native+Systems+%7C+AI+Pipelines;Cloud+Architecture+%7C+Cybersecurity;" />
+</p>
+  </h1>
 
----
-
-## About
-
-Production-focused software engineer with expertise in building **scalable, cloud-native systems** and **AI-enabled applications**. I design and deploy end-to-end solutions spanning full-stack development, data engineering, and distributed systems architecture.
-
-**Core Focus:**
-- **Backend & Distributed Systems**: Designing high-performance APIs, microservices, and event-driven architectures
-- **Cloud Infrastructure**: AWS-native deployments with emphasis on cost optimization and reliability
-- **Data Engineering**: Building robust ETL pipelines and data processing workflows
-- **AI/ML Integration**: Productionizing machine learning models and LLM-powered applications
-- **Security & DevOps**: Implementing security best practices, CI/CD, and infrastructure as code
-
-I prioritize **system reliability, clean architecture, and operational excellence** in production environments.
-
----
-
-## Technical Expertise
-
-### Languages & Frameworks
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-003B57?style=flat&logo=postgresql&logoColor=white)
-
-**Backend**: Django • FastAPI • Flask • Express.js • Node.js  
-**Frontend**: React • Next.js • TypeScript • Tailwind CSS • Material-UI
-
-### Cloud & Infrastructure
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-
-**Services**: EC2 • Lambda • S3 • RDS • API Gateway • CloudWatch  
-**DevOps**: Docker • CI/CD • Infrastructure as Code • System Monitoring
-
-### Data & AI/ML
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
-
-**Databases**: PostgreSQL • MySQL • MongoDB • Redis  
-**ML Frameworks**: TensorFlow • PyTorch • scikit-learn  
-**AI Tools**: OpenAI API • LangChain • Vector Databases  
-**Data Processing**: ETL Pipelines • Data Modeling • Query Optimization
-
-### Architecture & Design
-- RESTful API Design & Microservices
-- System Design & Distributed Systems
-- Database Schema Design & Optimization
-- Authentication & Authorization (OAuth, JWT)
-- Caching Strategies & Performance Tuning
-
----
-
-## Key Projects
-
-### 🚀 [Project Name 1]
-**Tech Stack**: React • Node.js • PostgreSQL • AWS • Docker
-
-Brief 1-2 line description focusing on technical challenges solved and impact.
-- Architected scalable microservices handling X requests/second
-- Reduced API latency by X% through query optimization and caching
-- Implemented CI/CD pipeline reducing deployment time by X%
-
-### 🚀 [Project Name 2]
-**Tech Stack**: Python • FastAPI • MongoDB • Redis • AWS Lambda
-
-Brief 1-2 line description focusing on technical challenges solved and impact.
-- Built real-time data processing pipeline handling X records/day
-- Designed event-driven architecture with 99.9% uptime
-- Optimized database queries reducing response time from Xms to Yms
-
-### 🚀 [Project Name 3]
-**Tech Stack**: Next.js • Django • PostgreSQL • OpenAI API
-
-Brief 1-2 line description focusing on technical challenges solved and impact.
-- Integrated LLM capabilities with custom fine-tuning for domain-specific tasks
-- Implemented secure authentication system supporting X concurrent users
-- Deployed containerized application with auto-scaling capabilities
-
----
-
-## Currently Exploring
-
-- Advanced system design patterns for distributed systems
-- Kubernetes and container orchestration at scale
-- Real-time data processing with Apache Kafka
-- MLOps and production ML system design
-
----
-
-## GitHub Stats
-
+</div>
+<p>
+    <img src="https://camo.githubusercontent.com/f928222254e02a35f33583861e98a9fdad4ad428041331f0a556783c94b4963f/68747470733a2f2f7777772e63617265657267756964652e636f6d2f6361726565722f77702d636f6e74656e742f75706c6f6164732f323032302f30332f66756c6c2d737461636b2d646576656c6f706d656e742e676966" 
+      alt="Generative AI Animation"
+      width="300"
+    />
+</p>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=CodeBy-Abhishek&show_icons=true&theme=default&hide_border=true&count_private=true" height="165"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=CodeBy-Abhishek&theme=default&hide_border=true" height="165"/>
+  <a href="https://3-d-protfolio.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-FFFFFF?style=for-the-badge&logo=googlechrome&logoColor=4285F4" />
+  </a>
+  <a href="https://www.linkedin.com/in/abhishek-yadav72/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2&cacheSeconds=3600" />
+  </a>
+  <a href="mailto:abhishek977266@gmail.com">
+    <img src="https://img.shields.io/badge/Email-C5221F?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="YOUR_RESUME_LINK">
+    <img src="https://img.shields.io/badge/Resume-0B1C2D?style=for-the-badge&logo=readthedocs&logoColor=white" />
+  </a>
 </p>
 
----
+### About
 
-## Let's Connect
+I am **Abhishek Yadav**, a Computer Science professional and production-focused software engineer.  
+I design and build **scalable, cloud-native systems** and **AI-enabled applications**, with expertise in **full-stack development**, **data engineering**, and **secure backend services**. My work emphasizes **system design, performance, and reliability**.
 
-I'm always interested in discussing **system architecture, engineering best practices, and technical challenges**. Feel free to reach out for collaboration or technical discussions.
+I specialize in:
+- Designing and deploying cloud-native architectures
+- Building production-ready APIs and distributed services
+- Developing data pipelines and AI-assisted systems
+- Applying security best practices across the stack
 
-📧 **Email**: abhishek977266@gmail.com  
-🔗 **LinkedIn**: [linkedin.com/in/abhishek-yadav72](https://www.linkedin.com/in/abhishek-yadav72/)  
-🌐 **Portfolio**: [3-d-protfolio.vercel.app](https://3-d-protfolio.vercel.app/)
+I take **end-to-end ownership** — from data ingestion and modeling to scalable deployment and monitoring. I prioritize **clean design, reproducibility, and production readiness** over experimental-only solutions.
 
----
+
+### Core Engineering Skills
+
+## 🧩 Tech Stack
+
+<table align="center">
+<tr>
+</tr>
+
+<tr>
+<td><img src="https://skillicons.dev/icons?i=html"/></td>
+<td><img src="https://skillicons.dev/icons?i=css"/></td>
+<td><img src="https://skillicons.dev/icons?i=bootstrap"/></td>
+<td><img src="https://skillicons.dev/icons?i=tailwind"/></td>
+<td><img src="https://skillicons.dev/icons?i=javascript"/></td>
+<td><img src="https://skillicons.dev/icons?i=react"/></td>
+<td><img src="https://skillicons.dev/icons?i=nextjs"/></td>
+<td><img src="https://skillicons.dev/icons?i=typescript"/></td>
+<td align="center">
+  <img src="https://skillicons.dev/icons?i=mui" />
+</td>
+</tr>
+
+
+<tr>
+<td><img src="https://skillicons.dev/icons?i=expressjs"/></td>
+<td><img src="https://skillicons.dev/icons?i=nodejs"/></td>
+<td><img src="https://skillicons.dev/icons?i=python"/></td>
+<td><img src="https://skillicons.dev/icons?i=django"/></td>
+<td><img src="https://skillicons.dev/icons?i=fastapi"/></td>
+<td><img src="https://skillicons.dev/icons?i=flask"/></td>
+<td><img src="https://skillicons.dev/icons?i=mysql"/></td>
+<td><img src="https://skillicons.dev/icons?i=postgres"/></td>
+<td><img src="https://skillicons.dev/icons?i=mongodb"/></td>
+</tr>
+
+<tr>
+<td><img src="https://skillicons.dev/icons?i=aws"/></td>
+<td><img src="https://skillicons.dev/icons?i=docker"/></td>
+<td><img src="https://skillicons.dev/icons?i=tensorflow"/></td>
+<td><img src="https://skillicons.dev/icons?i=pytorch"/></td>
+<td><img src="https://skillicons.dev/icons?i=matlab"/></td>
+<!-- <td><img src="https://skillicons.dev/icons?i=tableau"/></td>
+<td><img src="https://skillicons.dev/icons?i=openai"/></td>
+<td><img src="https://skillicons.dev/icons?i=databricks"/></td> -->
+<td><img src="https://skillicons.dev/icons?i=redis"/></td>
+<td><img src="https://skillicons.dev/icons?i=vscode"/></td>
+<td><img src="https://skillicons.dev/icons?i=linux"/></td>
+<td><img src="https://skillicons.dev/icons?i=git"/></td>
+</tr>
+
+<tr>
+<!-- <td><img src="https://skillicons.dev/icons?i=redis"/></td>
+<td><img src="https://skillicons.dev/icons?i=spark"/></td>
+<td><img src="https://skillicons.dev/icons?i=iceberg"/></td>
+<td><img src="https://skillicons.dev/icons?i=snowflake"/></td>
+<td><img src="https://skillicons.dev/icons?i=minio"/></td>
+<td><img src="https://skillicons.dev/icons?i=vscode"/></td>
+<td><img src="https://skillicons.dev/icons?i=linux"/></td>
+<td><img src="https://skillicons.dev/icons?i=git"/></td> -->
+</tr>
+</table>
+<p align="center">
+  <img src="https://img.shields.io/badge/REST%20API-02569B?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQL-003B57?style=for-the-badge" />
+</p>
+
+## GitHub Analytics
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=CodeBy-Abhishek&style=flat&color=blue" alt="Profile Views"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=CodeBy-Abhishek&show_icons=true&hide_border=true" height="160"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=CodeBy-Abhishek&hide_border=true" height="160"/>
 </p>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=CodeBy-Abhishek&style=flat&color=gray" />
+</p>
+
+
+
