@@ -318,6 +318,73 @@ Transport: stdio  |  Server: FastAPI + Python
   <img src="https://komarev.com/ghpvc/?username=CodeBy-Abhishek&style=for-the-badge&color=7c3aed&label=Profile+Views" />
 </p>
 
+
+
+
+
+<table align="center">
+<tr>
+</tr>
+
+<tr>
+<td><img src="https://skillicons.dev/icons?i=html"/></td>
+<td><img src="https://skillicons.dev/icons?i=css"/></td>
+<td><img src="https://skillicons.dev/icons?i=bootstrap"/></td>
+<td><img src="https://skillicons.dev/icons?i=tailwind"/></td>
+<td><img src="https://skillicons.dev/icons?i=javascript"/></td>
+<td><img src="https://skillicons.dev/icons?i=react"/></td>
+<td><img src="https://skillicons.dev/icons?i=nextjs"/></td>
+<td><img src="https://skillicons.dev/icons?i=typescript"/></td>
+<td align="center">
+  <img src="https://skillicons.dev/icons?i=mui" />
+</td>
+</tr>
+
+
+<tr>
+<td><img src="https://skillicons.dev/icons?i=expressjs"/></td>
+<td><img src="https://skillicons.dev/icons?i=nodejs"/></td>
+<td><img src="https://skillicons.dev/icons?i=python"/></td>
+<td><img src="https://skillicons.dev/icons?i=django"/></td>
+<td><img src="https://skillicons.dev/icons?i=fastapi"/></td>
+<td><img src="https://skillicons.dev/icons?i=flask"/></td>
+<td><img src="https://skillicons.dev/icons?i=mysql"/></td>
+<td><img src="https://skillicons.dev/icons?i=postgres"/></td>
+<td><img src="https://skillicons.dev/icons?i=mongodb"/></td>
+</tr>
+
+<tr>
+<td><img src="https://skillicons.dev/icons?i=aws"/></td>
+<td><img src="https://skillicons.dev/icons?i=docker"/></td>
+<td><img src="https://skillicons.dev/icons?i=tensorflow"/></td>
+<td><img src="https://skillicons.dev/icons?i=pytorch"/></td>
+<td><img src="https://skillicons.dev/icons?i=matlab"/></td>
+<!-- <td><img src="https://skillicons.dev/icons?i=tableau"/></td>
+<td><img src="https://skillicons.dev/icons?i=openai"/></td>
+<td><img src="https://skillicons.dev/icons?i=databricks"/></td> -->
+<td><img src="https://skillicons.dev/icons?i=redis"/></td>
+<td><img src="https://skillicons.dev/icons?i=vscode"/></td>
+<td><img src="https://skillicons.dev/icons?i=linux"/></td>
+<td><img src="https://skillicons.dev/icons?i=git"/></td>
+</tr>
+
+<tr>
+<!-- <td><img src="https://skillicons.dev/icons?i=redis"/></td>
+<td><img src="https://skillicons.dev/icons?i=spark"/></td>
+<td><img src="https://skillicons.dev/icons?i=iceberg"/></td>
+<td><img src="https://skillicons.dev/icons?i=snowflake"/></td>
+<td><img src="https://skillicons.dev/icons?i=minio"/></td>
+<td><img src="https://skillicons.dev/icons?i=vscode"/></td>
+<td><img src="https://skillicons.dev/icons?i=linux"/></td>
+<td><img src="https://skillicons.dev/icons?i=git"/></td> -->
+</tr>
+</table>
+<p align="center">
+  <img src="https://img.shields.io/badge/REST%20API-02569B?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQL-003B57?style=for-the-badge" />
+</p>
 ---
 
 <!-- ═══════════════════════════════════════════════════════════ -->
