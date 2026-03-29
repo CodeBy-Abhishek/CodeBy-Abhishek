@@ -22,7 +22,7 @@
   <a href="https://www.linkedin.com/in/abhishek-yadav72/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>&nbsp;
-  <a href="https://huggingface.co/spaces/abhishekyadav16/ai-doc-intelligence" target="_blank">
+  <a href="https://huggingface.co/spaces/abhishekyadav16/abhishekyadav16" target="_blank">
     <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=000000" />
   </a>&nbsp;
   <a href="mailto:abhishek977266@gmail.com">
@@ -142,7 +142,7 @@ Stage 3 ── Agentic Generation
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 
-[![🔗 Live Demo](https://img.shields.io/badge/🔗_Live_Demo-HuggingFace_Spaces-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/spaces/abhishekyadav16/ai-doc-intelligence)
+[![🔗 Live Demo](https://img.shields.io/badge/🔗_Live_Demo-HuggingFace_Spaces-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/spaces/abhishekyadav16/abhishekyadav16)
 [![GitHub](https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github)](https://github.com/CodeBy-Abhishek/ai-doc-intelligence)
 
 </td>
