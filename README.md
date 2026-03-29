@@ -79,7 +79,7 @@ class AbhishekYadav:
 
     certifications = "11x Anthropic Academy 🏅"
     internships    = 6
-    deployed_live  = "https://huggingface.co/spaces/abhishekyadav16/ai-doc-intelligence"
+    deployed_live  = "https://huggingface.co/spaces/abhishekyadav16/abhishekyadav16"
     seeking        = ["Remote", "Bengaluru", "Hyderabad", "Noida"]
 
     def say_hi(self):
