@@ -28,7 +28,7 @@
   <a href="mailto:abhishek977266@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>&nbsp;
-  <a href="https://drive.google.com/YOUR_ACTUAL_RESUME_LINK_HERE" target="_blank">
+  <a href="https://docs.google.com/document/d/10ekITm5NIJIMaJxs-teDLg1-nPWNXq7M/edit?usp=drivesdk&ouid=115189545770320518615&rtpof=true&sd=true" target="_blank">
     <img src="https://img.shields.io/badge/Resume-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" />
   </a>
 </p>
