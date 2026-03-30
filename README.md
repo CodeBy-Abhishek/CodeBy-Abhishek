@@ -304,13 +304,14 @@ Transport: stdio  |  Server: FastAPI + Python
 </p>
 
 
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=CodeBy-Abhishek&show_icons=true&theme=tokyonight"/>
-  <img src="https://streak-stats.demolab.com?user=CodeBy-Abhishek&theme=tokyonight"/>
+  <img width="45%" src="https://github-readme-stats.vercel.app/api?username=CodeBy-Abhishek&show_icons=true&theme=tokyonight&hide_border=true"/>
+  <img width="45%" src="https://streak-stats.demolab.com?user=CodeBy-Abhishek&theme=tokyonight&hide_border=true"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CodeBy-Abhishek&layout=compact&theme=tokyonight"/>
+  <img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CodeBy-Abhishek&layout=compact&theme=tokyonight&hide_border=true"/>
 </p>
 
 
