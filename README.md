@@ -8,9 +8,11 @@
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--                    TYPING ANIMATION                        -->
 <!-- ═══════════════════════════════════════════════════════════ -->
-<p align="center">
+
+
+<!-- <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=17&pause=1000&color=A78BFA&center=true&vCenter=true&width=780&height=45&lines=🤖+Building+Production+RAG+%26+Agentic+AI+Systems;⚡+Anthropic+API+%7C+LangChain+%7C+LangGraph+%7C+ChromaDB+%7C+MCP;🚀+Live+Deployed+→+HuggingFace+Spaces;📜+11x+Anthropic+Academy+Certified+%7C+Kanpur+🇮🇳;🔍+Seeking+AI+Engineer+%7C+LLM+Engineer+%7C+GenAI+Developer" />
-</p>
+</p> -->
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=17&pause=1000&color=A78BFA&center=true&vCenter=true&width=900&height=60&lines=Building+Production+RAG+and+Agentic+AI+Systems;Anthropic+API+%7C+LangChain+%7C+LangGraph+%7C+ChromaDB+%7C+MCP;Live+Deployed+on+HuggingFace+Spaces;Anthropic+Certified+Developer+%7C+Kanpur+India;Seeking+AI+Engineer+%7C+LLM+Engineer+%7C+GenAI+Developer" alt="Typing SVG" />
@@ -294,6 +296,13 @@ Transport: stdio  |  Server: FastAPI + Python
   <img src="https://github-readme-stats.vercel.app/api?username=CodeBy-Abhishek&show_icons=true&hide_border=true&theme=tokyonight&include_all_commits=true&count_private=true&rank_icon=github&show=reviews,prs_merged" height="175"/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=CodeBy-Abhishek&hide_border=true&theme=tokyonight" height="175"/>
 </p>
+
+ 
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=CodeBy-Abhishek&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="170"/>
+  <img src="https://streak-stats.demolab.com?user=CodeBy-Abhishek&theme=tokyonight&hide_border=true" height="170"/>
+</p>
+
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CodeBy-Abhishek&layout=compact&hide_border=true&theme=tokyonight&langs_count=8&hide=jupyter%20notebook,html,css" height="148"/>
