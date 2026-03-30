@@ -12,6 +12,10 @@
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=17&pause=1000&color=A78BFA&center=true&vCenter=true&width=780&height=45&lines=🤖+Building+Production+RAG+%26+Agentic+AI+Systems;⚡+Anthropic+API+%7C+LangChain+%7C+LangGraph+%7C+ChromaDB+%7C+MCP;🚀+Live+Deployed+→+HuggingFace+Spaces;📜+11x+Anthropic+Academy+Certified+%7C+Kanpur+🇮🇳;🔍+Seeking+AI+Engineer+%7C+LLM+Engineer+%7C+GenAI+Developer" />
 </p>
 
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=17&pause=1000&color=A78BFA&center=true&vCenter=true&width=780&height=45&lines=🤖+Building+Production+RAG+%26+Agentic+AI+Systems;⚡+Anthropic+API+%7C+LangChain+%7C+LangGraph+%7C+ChromaDB+%7C+MCP;🚀+Live+Deployed+→+HuggingFace+Spaces;📜+Anthropic+Certified+%7C+Kanpur;🔍+AI+Engineer+%7C+LLM+Engineer+%7C+GenAI+Developer" />
+</p>
+
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--                    SOCIAL LINKS                            -->
 <!-- ═══════════════════════════════════════════════════════════ -->
