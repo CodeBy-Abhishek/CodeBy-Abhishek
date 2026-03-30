@@ -1,3 +1,73 @@
+<h1 align="center">Hi 👋, I'm Abhishek Yadav</h1>
+<h3 align="center">🚀 AI Engineer | LLM Developer | GenAI Enthusiast</h3>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=17&pause=1000&color=A78BFA&center=true&vCenter=true&width=780&height=45&lines=🤖+Building+Production+RAG+%26+Agentic+AI+Systems;⚡+LangChain+%7C+LangGraph+%7C+ChromaDB+%7C+MCP;🚀+Live+Projects+%7C+HuggingFace+Spaces;📜+AI+Certified+Developer+%7C+India;🔍+Seeking+AI+Engineer+Roles" />
+</p>
+
+---
+
+## 🧠 About Me
+- 🎓 BTech Student at **CSJMU**
+- 🤖 Working on **RAG, LLM & Agentic AI Systems**
+- 💻 Tech Stack: **React | Node.js | MongoDB | Python**
+- 🚀 Building real-world AI projects
+- 🎯 Goal: Become a top **AI Engineer**
+
+---
+
+## ⚡ Tech Stack
+
+### 👨‍💻 Programming
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+
+### 🌐 Web Development
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+
+### 🤖 AI / ML
+![LangChain](https://img.shields.io/badge/LangChain-black?style=for-the-badge)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-purple?style=for-the-badge)
+![OpenAI](https://img.shields.io/badge/OpenAI-black?style=for-the-badge)
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Student-Abhiyadav&show_icons=true&theme=radical" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Student-Abhiyadav&theme=radical" />
+</p>
+
+---
+
+## 🚀 Featured Projects
+
+- 🔥 AI Portfolio Website  
+- 🤖 RAG-based AI System  
+- 💊 Age-Based Medicine App  
+- 🧠 LLM-powered Chatbot  
+
+---
+
+## 🌐 Connect With Me
+
+- 💼 LinkedIn: (Add your link)
+- 📧 Email: (Add your email)
+- 🌍 Portfolio: (Add your website)
+
+---
+
+## 🔥 Profile Views
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Student-Abhiyadav&label=Profile%20views&color=0e75b6&style=flat" />
+</p>
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--                    HEADER WAVE BANNER                      -->
 <!-- ═══════════════════════════════════════════════════════════ -->
@@ -10,10 +80,6 @@
 <!-- ═══════════════════════════════════════════════════════════ -->
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=17&pause=1000&color=A78BFA&center=true&vCenter=true&width=780&height=45&lines=🤖+Building+Production+RAG+%26+Agentic+AI+Systems;⚡+Anthropic+API+%7C+LangChain+%7C+LangGraph+%7C+ChromaDB+%7C+MCP;🚀+Live+Deployed+→+HuggingFace+Spaces;📜+11x+Anthropic+Academy+Certified+%7C+Kanpur+🇮🇳;🔍+Seeking+AI+Engineer+%7C+LLM+Engineer+%7C+GenAI+Developer" />
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=17&pause=1000&color=A78BFA&center=true&vCenter=true&width=780&height=45&lines=🤖+Building+Production+RAG+%26+Agentic+AI+Systems;⚡+Anthropic+API+%7C+LangChain+%7C+LangGraph+%7C+ChromaDB+%7C+MCP;🚀+Live+Deployed+→+HuggingFace+Spaces;📜+Anthropic+Certified+%7C+Kanpur;🔍+AI+Engineer+%7C+LLM+Engineer+%7C+GenAI+Developer" />
 </p>
 
 <!-- ═══════════════════════════════════════════════════════════ -->
