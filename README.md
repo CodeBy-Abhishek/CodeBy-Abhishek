@@ -305,7 +305,12 @@ Transport: stdio  |  Server: FastAPI + Python
 
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CodeBy-Abhishek&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&hide=jupyter%20notebook,html,css" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=CodeBy-Abhishek&show_icons=true&theme=tokyonight"/>
+  <img src="https://streak-stats.demolab.com?user=CodeBy-Abhishek&theme=tokyonight"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CodeBy-Abhishek&layout=compact&theme=tokyonight"/>
 </p>
 
 
