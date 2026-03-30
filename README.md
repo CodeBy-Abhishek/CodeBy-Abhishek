@@ -297,16 +297,18 @@ Transport: stdio  |  Server: FastAPI + Python
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=CodeBy-Abhishek&hide_border=true&theme=tokyonight" height="175"/>
 </p>
 
- 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=CodeBy-Abhishek&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="170"/>
-  <img src="https://streak-stats.demolab.com?user=CodeBy-Abhishek&theme=tokyonight&hide_border=true" height="170"/>
-</p>
 
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CodeBy-Abhishek&layout=compact&hide_border=true&theme=tokyonight&langs_count=8&hide=jupyter%20notebook,html,css" height="148"/>
 </p>
+
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CodeBy-Abhishek&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&hide=jupyter%20notebook,html,css" height="160"/>
+</p>
+
+
 
 <!-- TROPHIES -->
 <p align="center">
