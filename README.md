@@ -2,13 +2,6 @@
 <!--                    HEADER WAVE BANNER                      -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-<svg width="900" height="290" viewBox="0 0 900 290" xmlns="http://www.w3.org/2000/svg">
-<g class="crd">
-  <text x="52" y="278" fill="#00ffc840" font-family="'Courier New',Courier,monospace" font-size="8.5" letter-spacing="2">26°N 80°E // KANPUR.IN</text>
-  <text x="848" y="278" text-anchor="end" fill="#00ffc840" font-family="'Courier New',Courier,monospace" font-size="8.5" letter-spacing="2">SYS_ID // AY-2025</text>
-</g>
-</svg>
-
 <!-- ═══════════════════════════════════════════════════════════ -->
 <div align="center">
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=220&section=header&text=Abhishek%20Yadav&fontSize=58&fontColor=ffffff&fontAlignY=38&desc=AI%20Engineer%20%7C%20RAG%20Pipelines%20%7C%20Agentic%20AI%20%7C%20LLM%20Systems&descAlignY=60&descSize=17&descColor=c4b5fd&animation=fadeIn&stroke=a78bfa&strokeWidth=1" />
