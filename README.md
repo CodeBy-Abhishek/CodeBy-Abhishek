@@ -2,407 +2,185 @@
 <!--                    HEADER WAVE BANNER                      -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Abhishek Yadav — AI Engineer</title>
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Space+Mono:wght@400;700&family=Rajdhani:wght@300;400;600;700&display=swap" rel="stylesheet"/>
-<style>
-  *{margin:0;padding:0;box-sizing:border-box}
-  html,body{width:100%;height:100%;overflow:hidden;background:#020408}
+<svg width="900" height="290" viewBox="0 0 900 290" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#080c18"/>
+    <stop offset="100%" stop-color="#050215"/>
+  </linearGradient>
+  <linearGradient id="ll" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#08101800"/>
+    <stop offset="100%" stop-color="#00ffc8"/>
+  </linearGradient>
+  <linearGradient id="lr" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#00ffc8"/>
+    <stop offset="100%" stop-color="#08101800"/>
+  </linearGradient>
+  <style>
+  @keyframes glitchA{0%,87%,100%{transform:translate(0,0);opacity:0}88%{transform:translate(-4px,1px);opacity:.88}90%{transform:translate(3px,-1px);opacity:.8}92%{transform:translate(-2px,2px);opacity:.55}94%{opacity:0}}
+  @keyframes glitchB{0%,91%,100%{transform:translate(0,0);opacity:0}92%{transform:translate(4px,-2px);opacity:.82}94%{transform:translate(-3px,1px);opacity:.7}97%{opacity:0}}
+  @keyframes diamondPulse{0%,100%{opacity:.55}50%{opacity:1}}
+  @keyframes roleShow{0%,1%{opacity:0;transform:translateY(5px)}4%,17%{opacity:1;transform:translateY(0)}20%,100%{opacity:0;transform:translateY(-4px)}}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+  @keyframes particlePulse{0%,100%{opacity:.3}50%{opacity:.8}}
+  @keyframes linePulse{0%,100%{opacity:.12}50%{opacity:.4}}
+  .gA{fill:#00ffc8;clip-path:inset(0 0 62% 0);animation:glitchA 4s 1.5s infinite}
+  .gB{fill:#bf5fff;clip-path:inset(55% 0 0 0);animation:glitchB 4.5s 2s infinite}
+  .nm{fill:#ffffff;animation:fadeUp .8s .4s both}
+  .bdg{animation:fadeUp .6s .1s both}
+  .dvd{animation:diamondPulse 2.5s ease-in-out infinite}
+  .tgs{animation:fadeUp .8s .8s both}
+  .sts{animation:fadeUp .8s 1s both}
+  .crd{animation:fadeUp .6s 1.2s both}
+  .r1{animation:roleShow 24s 1s infinite;opacity:0}
+  .r2{animation:roleShow 24s 5s infinite;opacity:0}
+  .r3{animation:roleShow 24s 9s infinite;opacity:0}
+  .r4{animation:roleShow 24s 13s infinite;opacity:0}
+  .r5{animation:roleShow 24s 17s infinite;opacity:0}
+  .r6{animation:roleShow 24s 21s infinite;opacity:0}
+  </style>
+</defs>
 
-  #canvas{
-    position:absolute;inset:0;width:100%;height:100%;
-    z-index:0;
-  }
+<!-- Background -->
+<rect width="900" height="290" fill="url(#bg)" rx="10"/>
 
-  .overlay{
-    position:absolute;inset:0;z-index:1;
-    background:
-      radial-gradient(ellipse 80% 60% at 50% 50%, transparent 30%, #020408 100%),
-      repeating-linear-gradient(0deg, transparent, transparent 3px, rgba(0,255,200,0.015) 3px, rgba(0,255,200,0.015) 4px);
-    pointer-events:none;
-  }
+<!-- Subtle grid lines -->
+<line x1="0" y1="72" x2="900" y2="72" stroke="#00ffc8" stroke-width=".3" opacity=".07"/>
+<line x1="0" y1="218" x2="900" y2="218" stroke="#00ffc8" stroke-width=".3" opacity=".07"/>
+<line x1="225" y1="0" x2="225" y2="290" stroke="#bf5fff" stroke-width=".3" opacity=".06"/>
+<line x1="675" y1="0" x2="675" y2="290" stroke="#bf5fff" stroke-width=".3" opacity=".06"/>
 
-  .scanlines{
-    position:absolute;inset:0;z-index:2;
-    background:repeating-linear-gradient(
-      to bottom,
-      transparent 0px,transparent 1px,
-      rgba(0,0,0,0.12) 1px,rgba(0,0,0,0.12) 2px
-    );
-    pointer-events:none;animation:scan 8s linear infinite;
-  }
-  @keyframes scan{
-    0%{background-position:0 0}
-    100%{background-position:0 100vh}
-  }
+<!-- Corner brackets -->
+<path d="M16,16 L16,44 M16,16 L44,16" stroke="#00ffc8" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+<path d="M884,16 L856,16 M884,16 L884,44" stroke="#00ffc8" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+<path d="M16,274 L16,246 M16,274 L44,274" stroke="#00ffc860" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+<path d="M884,274 L856,274 M884,274 L884,246" stroke="#00ffc860" stroke-width="1.4" fill="none" stroke-linecap="round"/>
 
-  .container{
-    position:relative;z-index:3;
-    width:100%;height:100%;
-    display:flex;flex-direction:column;
-    align-items:center;justify-content:center;
-    padding:2rem;
-    text-align:center;
-  }
+<!-- Particles LEFT cluster -->
+<circle cx="62" cy="42" r="1.8" fill="#00ffc8"><animate attributeName="opacity" values=".7;.2;.8;.4;.7" dur="9s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;10,7;-5,14;7,-5;0,0" dur="9s" repeatCount="indefinite"/></circle>
+<circle cx="118" cy="28" r="1.4" fill="#bf5fff"><animate attributeName="opacity" values=".55;.9;.3;.7;.55" dur="7s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;-8,11;14,4;-3,-7;0,0" dur="7s" repeatCount="indefinite"/></circle>
+<circle cx="82" cy="88" r="2" fill="#5fb4ff"><animate attributeName="opacity" values=".45;.8;.25;.6;.45" dur="11s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;9,-7;-5,11;4,6;0,0" dur="11s" repeatCount="indefinite"/></circle>
+<circle cx="145" cy="66" r="1.5" fill="#00ffc8"><animate attributeName="opacity" values=".6;.25;.85;.4;.6" dur="8s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;-11,5;7,13;-4,-5;0,0" dur="8s" repeatCount="indefinite"/></circle>
+<circle cx="52" cy="118" r="1.3" fill="#bf5fff"><animate attributeName="opacity" values=".4;.7;.2;.55;.4" dur="10.5s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;13,4;-7,-9;5,7;0,0" dur="10.5s" repeatCount="indefinite"/></circle>
+<circle cx="172" cy="108" r="1.7" fill="#00ffc8"><animate attributeName="opacity" values=".5;.85;.3;.65;.5" dur="13s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;-6,9;11,-4;-7,6;0,0" dur="13s" repeatCount="indefinite"/></circle>
+<circle cx="95" cy="152" r="1.3" fill="#5fb4ff"><animate attributeName="opacity" values=".4;.7;.2;.5;.4" dur="9.5s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;7,-11;-4,8;9,-3;0,0" dur="9.5s" repeatCount="indefinite"/></circle>
+<circle cx="42" cy="188" r="1.5" fill="#00ffc8"><animate attributeName="opacity" values=".35;.65;.2;.5;.35" dur="12s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;11,5;-7,-4;5,9;0,0" dur="12s" repeatCount="indefinite"/></circle>
+<circle cx="158" cy="198" r="1.4" fill="#bf5fff"><animate attributeName="opacity" values=".45;.75;.25;.6;.45" dur="8.5s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;-9,7;5,-11;-4,5;0,0" dur="8.5s" repeatCount="indefinite"/></circle>
+<circle cx="200" cy="155" r="1.2" fill="#5fb4ff"><animate attributeName="opacity" values=".3;.6;.15;.45;.3" dur="14s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;6,10;-8,-5;4,8;0,0" dur="14s" repeatCount="indefinite"/></circle>
 
-  /* --- top badge --- */
-  .badge{
-    font-family:'Space Mono',monospace;
-    font-size:11px;letter-spacing:4px;
-    color:#00ffc8;text-transform:uppercase;
-    border:1px solid rgba(0,255,200,0.35);
-    padding:6px 18px;border-radius:20px;
-    background:rgba(0,255,200,0.06);
-    margin-bottom:28px;
-    animation:fadeSlide 0.8s ease both;
-    box-shadow:0 0 18px rgba(0,255,200,0.18), inset 0 0 12px rgba(0,255,200,0.05);
-  }
+<!-- Particles RIGHT cluster -->
+<circle cx="838" cy="42" r="1.8" fill="#00ffc8"><animate attributeName="opacity" values=".65;.2;.85;.4;.65" dur="9.5s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;-10,7;5,14;-7,-5;0,0" dur="9.5s" repeatCount="indefinite"/></circle>
+<circle cx="782" cy="28" r="1.5" fill="#bf5fff"><animate attributeName="opacity" values=".5;.85;.28;.7;.5" dur="7.5s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;8,-9;-11,5;3,7;0,0" dur="7.5s" repeatCount="indefinite"/></circle>
+<circle cx="818" cy="88" r="2" fill="#5fb4ff"><animate attributeName="opacity" values=".48;.8;.22;.62;.48" dur="11.5s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;-8,9;5,-11;9,4;0,0" dur="11.5s" repeatCount="indefinite"/></circle>
+<circle cx="755" cy="68" r="1.5" fill="#00ffc8"><animate attributeName="opacity" values=".6;.22;.88;.4;.6" dur="8s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;9,7;-6,-9;4,11;0,0" dur="8s" repeatCount="indefinite"/></circle>
+<circle cx="848" cy="124" r="1.3" fill="#bf5fff"><animate attributeName="opacity" values=".42;.72;.2;.55;.42" dur="10s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;-11,5;5,9;-4,-7;0,0" dur="10s" repeatCount="indefinite"/></circle>
+<circle cx="722" cy="104" r="1.7" fill="#5fb4ff"><animate attributeName="opacity" values=".48;.82;.28;.62;.48" dur="12.5s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;7,-8;-5,11;5,-4;0,0" dur="12.5s" repeatCount="indefinite"/></circle>
+<circle cx="858" cy="175" r="1.5" fill="#00ffc8"><animate attributeName="opacity" values=".38;.68;.18;.52;.38" dur="9s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;-8,9;4,-6;9,5;0,0" dur="9s" repeatCount="indefinite"/></circle>
+<circle cx="742" cy="192" r="1.4" fill="#bf5fff"><animate attributeName="opacity" values=".45;.75;.22;.58;.45" dur="8s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;9,-7;-5,11;-7,4;0,0" dur="8s" repeatCount="indefinite"/></circle>
+<circle cx="700" cy="150" r="1.2" fill="#5fb4ff"><animate attributeName="opacity" values=".32;.62;.15;.48;.32" dur="14s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;-6,10;8,-5;-4,8;0,0" dur="14s" repeatCount="indefinite"/></circle>
 
-  /* --- name --- */
-  .name-wrap{position:relative;margin-bottom:14px}
-  .name{
-    font-family:'Orbitron',monospace;
-    font-weight:900;
-    font-size:clamp(36px,6vw,72px);
-    color:#fff;
-    letter-spacing:3px;
-    line-height:1;
-    animation:fadeSlide 0.9s 0.2s ease both;
-    position:relative;display:inline-block;
-  }
-  .name::before,.name::after{
-    content:'Abhishek Yadav';
-    position:absolute;top:0;left:0;
-    width:100%;height:100%;
-    font-family:'Orbitron',monospace;font-weight:900;
-    font-size:inherit;letter-spacing:3px;
-  }
-  .name::before{
-    color:#00ffc8;clip-path:polygon(0 0,100% 0,100% 35%,0 35%);
-    animation:glitch1 4s infinite;left:2px;
-  }
-  .name::after{
-    color:#bf5fff;clip-path:polygon(0 60%,100% 60%,100% 100%,0 100%);
-    animation:glitch2 4s infinite;left:-2px;
-  }
+<!-- Connection lines LEFT -->
+<line x1="62" y1="42" x2="118" y2="28" stroke="#00ffc8" stroke-width=".5"><animate attributeName="opacity" values=".22;.05;.28;.08;.22" dur="8s" repeatCount="indefinite"/></line>
+<line x1="118" y1="28" x2="145" y2="66" stroke="#bf5fff" stroke-width=".5"><animate attributeName="opacity" values=".18;.38;.08;.3;.18" dur="7s" repeatCount="indefinite"/></line>
+<line x1="62" y1="42" x2="82" y2="88" stroke="#00ffc8" stroke-width=".4"><animate attributeName="opacity" values=".18;.05;.24;.08;.18" dur="10s" repeatCount="indefinite"/></line>
+<line x1="82" y1="88" x2="172" y2="108" stroke="#5fb4ff" stroke-width=".4"><animate attributeName="opacity" values=".15;.3;.08;.22;.15" dur="9s" repeatCount="indefinite"/></line>
+<line x1="52" y1="118" x2="95" y2="152" stroke="#bf5fff" stroke-width=".4"><animate attributeName="opacity" values=".2;.05;.28;.1;.2" dur="11s" repeatCount="indefinite"/></line>
 
-  @keyframes glitch1{
-    0%,90%,100%{transform:translate(0);opacity:0}
-    91%{transform:translate(-3px,1px);opacity:0.9}
-    93%{transform:translate(3px,-1px);opacity:0.9}
-    95%{transform:translate(-2px,2px);opacity:0.7}
-    97%{transform:translate(0);opacity:0}
-  }
-  @keyframes glitch2{
-    0%,88%,100%{transform:translate(0);opacity:0}
-    89%{transform:translate(4px,-2px);opacity:0.9}
-    92%{transform:translate(-3px,1px);opacity:0.8}
-    94%{transform:translate(2px,0);opacity:0.6}
-    96%{transform:translate(0);opacity:0}
-  }
+<!-- Connection lines RIGHT -->
+<line x1="838" y1="42" x2="782" y2="28" stroke="#00ffc8" stroke-width=".5"><animate attributeName="opacity" values=".22;.08;.3;.1;.22" dur="8.5s" repeatCount="indefinite"/></line>
+<line x1="818" y1="88" x2="782" y2="28" stroke="#5fb4ff" stroke-width=".5"><animate attributeName="opacity" values=".18;.35;.08;.28;.18" dur="9s" repeatCount="indefinite"/></line>
+<line x1="818" y1="88" x2="755" y2="68" stroke="#bf5fff" stroke-width=".4"><animate attributeName="opacity" values=".15;.32;.07;.25;.15" dur="10s" repeatCount="indefinite"/></line>
+<line x1="848" y1="124" x2="722" y2="104" stroke="#00ffc8" stroke-width=".4"><animate attributeName="opacity" values=".18;.05;.25;.08;.18" dur="12s" repeatCount="indefinite"/></line>
 
-  /* accent line */
-  .line-wrap{
-    display:flex;align-items:center;justify-content:center;
-    gap:14px;margin-bottom:22px;
-    animation:fadeSlide 1s 0.4s ease both;
-  }
-  .h-line{
-    height:1px;width:80px;
-    background:linear-gradient(to right,transparent,#00ffc8);
-  }
-  .h-line.right{background:linear-gradient(to left,transparent,#00ffc8)}
-  .diamond{
-    width:8px;height:8px;
-    background:#00ffc8;transform:rotate(45deg);
-    box-shadow:0 0 12px #00ffc8,0 0 24px rgba(0,255,200,0.5);
-    animation:pulse 2s ease-in-out infinite;
-  }
-  @keyframes pulse{
-    0%,100%{box-shadow:0 0 8px #00ffc8,0 0 18px rgba(0,255,200,0.4)}
-    50%{box-shadow:0 0 18px #00ffc8,0 0 36px rgba(0,255,200,0.7)}
-  }
+<!-- Badge -->
+<g class="bdg">
+  <rect x="348" y="18" width="204" height="26" rx="13" fill="#00ffc80a" stroke="#00ffc855" stroke-width="1"/>
+  <text x="450" y="35" text-anchor="middle" fill="#00ffc8" font-family="'Courier New',Courier,monospace" font-size="10" letter-spacing="3.5">&#x2B21; AI ENGINEER &#x2B21;</text>
+</g>
 
-  /* --- typewriter role --- */
-  .role-wrap{
-    font-family:'Rajdhani',sans-serif;
-    font-size:clamp(14px,2.2vw,22px);
-    font-weight:600;
-    letter-spacing:2px;
-    color:rgba(255,255,255,0.85);
-    margin-bottom:28px;
-    height:30px;
-    animation:fadeSlide 1s 0.5s ease both;
-  }
-  .cursor{
-    display:inline-block;
-    width:2px;height:1em;
-    background:#bf5fff;
-    margin-left:3px;
-    vertical-align:text-bottom;
-    animation:blink 0.75s step-end infinite;
-  }
-  @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+<!-- Name main -->
+<text class="nm" x="450" y="110" text-anchor="middle" font-family="'Courier New',Courier,monospace" font-size="48" font-weight="700" letter-spacing="5">ABHISHEK YADAV</text>
+<!-- Glitch A (cyan, top slice) -->
+<text class="gA" x="450" y="110" text-anchor="middle" font-family="'Courier New',Courier,monospace" font-size="48" font-weight="700" letter-spacing="5">ABHISHEK YADAV</text>
+<!-- Glitch B (violet, bottom slice) -->
+<text class="gB" x="450" y="110" text-anchor="middle" font-family="'Courier New',Courier,monospace" font-size="48" font-weight="700" letter-spacing="5">ABHISHEK YADAV</text>
 
-  /* --- tags --- */
-  .tags{
-    display:flex;flex-wrap:wrap;
-    justify-content:center;gap:10px;
-    margin-bottom:36px;
-    animation:fadeSlide 1s 0.7s ease both;
-  }
-  .tag{
-    font-family:'Space Mono',monospace;
-    font-size:10px;letter-spacing:1.5px;
-    padding:5px 14px;border-radius:4px;
-    text-transform:uppercase;
-    transition:all 0.3s ease;cursor:default;
-  }
-  .tag.cyan{
-    color:#00ffc8;border:1px solid rgba(0,255,200,0.4);
-    background:rgba(0,255,200,0.06);
-  }
-  .tag.violet{
-    color:#bf5fff;border:1px solid rgba(191,95,255,0.4);
-    background:rgba(191,95,255,0.06);
-  }
-  .tag.blue{
-    color:#5fb4ff;border:1px solid rgba(95,180,255,0.4);
-    background:rgba(95,180,255,0.06);
-  }
-  .tag:hover{transform:translateY(-2px);filter:brightness(1.3)}
+<!-- Divider with diamond -->
+<rect x="262" y="120" width="148" height="1" fill="url(#ll)"/>
+<rect x="490" y="120" width="148" height="1" fill="url(#lr)"/>
+<g class="dvd" transform="translate(450,120) rotate(45)">
+  <rect x="-5" y="-5" width="10" height="10" fill="#00ffc8" opacity=".3"/>
+  <rect x="-3.5" y="-3.5" width="7" height="7" fill="#00ffc8"/>
+</g>
 
-  /* --- stats row --- */
-  .stats{
-    display:flex;gap:clamp(16px,3vw,42px);
-    animation:fadeSlide 1s 0.9s ease both;
-  }
-  .stat{text-align:center}
-  .stat-num{
-    font-family:'Orbitron',monospace;
-    font-weight:700;
-    font-size:clamp(18px,2.5vw,28px);
-    color:#fff;
-    display:block;
-    line-height:1;
-  }
-  .stat-num span{color:#00ffc8}
-  .stat-label{
-    font-family:'Rajdhani',sans-serif;
-    font-size:11px;letter-spacing:2px;
-    color:rgba(255,255,255,0.4);
-    text-transform:uppercase;
-    margin-top:4px;display:block;
-  }
-  .sep{width:1px;background:rgba(255,255,255,0.1);align-self:stretch}
+<!-- Cycling role texts -->
+<text class="r1" x="450" y="148" text-anchor="middle" fill="#d8d8f8" font-family="'Courier New',Courier,monospace" font-size="13.5" letter-spacing="1.5">Building RAG Pipelines &amp; Agentic AI Systems</text>
+<text class="r2" x="450" y="148" text-anchor="middle" fill="#d8d8f8" font-family="'Courier New',Courier,monospace" font-size="13.5" letter-spacing="1.5">LLM Engineer · LangChain · LangGraph</text>
+<text class="r3" x="450" y="148" text-anchor="middle" fill="#d8d8f8" font-family="'Courier New',Courier,monospace" font-size="13.5" letter-spacing="1.5">MCP Architecture · Tool Use · Anthropic API</text>
+<text class="r4" x="450" y="148" text-anchor="middle" fill="#d8d8f8" font-family="'Courier New',Courier,monospace" font-size="13.5" letter-spacing="1.5">ChromaDB · FAISS · Hybrid Retrieval · RAGAS</text>
+<text class="r5" x="450" y="148" text-anchor="middle" fill="#d8d8f8" font-family="'Courier New',Courier,monospace" font-size="13.5" letter-spacing="1.5">FastAPI · HuggingFace · Docker · MLOps</text>
+<text class="r6" x="450" y="148" text-anchor="middle" fill="#d8d8f8" font-family="'Courier New',Courier,monospace" font-size="13.5" letter-spacing="1.5">11+ Anthropic Certifications · BCA 2025</text>
 
-  /* corner decorations */
-  .corner{position:absolute;width:28px;height:28px;z-index:3}
-  .corner.tl{top:18px;left:18px;border-top:2px solid #00ffc8;border-left:2px solid #00ffc8}
-  .corner.tr{top:18px;right:18px;border-top:2px solid #00ffc8;border-right:2px solid #00ffc8}
-  .corner.bl{bottom:18px;left:18px;border-bottom:2px solid rgba(0,255,200,0.4);border-left:2px solid rgba(0,255,200,0.4)}
-  .corner.br{bottom:18px;right:18px;border-bottom:2px solid rgba(0,255,200,0.4);border-right:2px solid rgba(0,255,200,0.4)}
+<!-- Tech Tags -->
+<!-- Total tags width: 80+80+86+93+73+67+86 = 565 + gaps 6*8=48 = 613px, start x=143.5→144 -->
+<g class="tgs">
+  <rect x="144" y="163" width="80" height="20" rx="4" fill="#00ffc80a" stroke="#00ffc848" stroke-width=".8"/>
+  <text x="184" y="177" text-anchor="middle" fill="#00ffc8" font-family="'Courier New',Courier,monospace" font-size="8.5" letter-spacing="1.5">LANGCHAIN</text>
 
-  /* coords label */
-  .coords{
-    position:absolute;bottom:14px;right:52px;
-    font-family:'Space Mono',monospace;font-size:9px;
-    color:rgba(0,255,200,0.3);letter-spacing:2px;z-index:3;
-  }
-  .coords-l{
-    position:absolute;bottom:14px;left:52px;
-    font-family:'Space Mono',monospace;font-size:9px;
-    color:rgba(0,255,200,0.3);letter-spacing:2px;z-index:3;
-  }
+  <rect x="232" y="163" width="80" height="20" rx="4" fill="#bf5fff0a" stroke="#bf5fff48" stroke-width=".8"/>
+  <text x="272" y="177" text-anchor="middle" fill="#bf5fff" font-family="'Courier New',Courier,monospace" font-size="8.5" letter-spacing="1.5">RAG PIPES</text>
 
-  @keyframes fadeSlide{
-    from{opacity:0;transform:translateY(16px)}
-    to{opacity:1;transform:translateY(0)}
-  }
-</style>
-</head>
-<body>
+  <rect x="320" y="163" width="86" height="20" rx="4" fill="#00ffc80a" stroke="#00ffc848" stroke-width=".8"/>
+  <text x="363" y="177" text-anchor="middle" fill="#00ffc8" font-family="'Courier New',Courier,monospace" font-size="8.5" letter-spacing="1.5">AGENTIC AI</text>
 
-<canvas id="canvas"></canvas>
-<div class="overlay"></div>
-<div class="scanlines"></div>
+  <rect x="414" y="163" width="93" height="20" rx="4" fill="#5fb4ff0a" stroke="#5fb4ff48" stroke-width=".8"/>
+  <text x="460.5" y="177" text-anchor="middle" fill="#5fb4ff" font-family="'Courier New',Courier,monospace" font-size="8.5" letter-spacing="1.5">LLM SYSTEMS</text>
 
-<!-- Corners -->
-<div class="corner tl"></div>
-<div class="corner tr"></div>
-<div class="corner bl"></div>
-<div class="corner br"></div>
-<div class="coords">26°N 80°E // KANPUR.IN</div>
-<div class="coords-l">SYS_ID // AY-2025-BCA</div>
+  <rect x="515" y="163" width="73" height="20" rx="4" fill="#bf5fff0a" stroke="#bf5fff48" stroke-width=".8"/>
+  <text x="551.5" y="177" text-anchor="middle" fill="#bf5fff" font-family="'Courier New',Courier,monospace" font-size="8.5" letter-spacing="1.5">MCP ARCH</text>
 
-<div class="container">
+  <rect x="596" y="163" width="67" height="20" rx="4" fill="#00ffc80a" stroke="#00ffc848" stroke-width=".8"/>
+  <text x="629.5" y="177" text-anchor="middle" fill="#00ffc8" font-family="'Courier New',Courier,monospace" font-size="8.5" letter-spacing="1.5">FASTAPI</text>
 
-  <div class="badge">⬡ &nbsp;AI Engineer &nbsp;⬡</div>
+  <rect x="671" y="163" width="86" height="20" rx="4" fill="#5fb4ff0a" stroke="#5fb4ff48" stroke-width=".8"/>
+  <text x="714" y="177" text-anchor="middle" fill="#5fb4ff" font-family="'Courier New',Courier,monospace" font-size="8.5" letter-spacing="1.5">CLAUDE API</text>
+</g>
 
-  <div class="name-wrap">
-    <h1 class="name">Abhishek Yadav</h1>
-  </div>
+<!-- Stats section -->
+<!-- 4 blocks, each 85px, 3 separators 40px → total 460px, start x=220 -->
+<g class="sts">
+  <!-- Stat 1: Internships -->
+  <text x="262" y="222" text-anchor="middle" fill="#ffffff" font-family="'Courier New',Courier,monospace" font-size="26" font-weight="700" letter-spacing="1">6</text>
+  <text x="262" y="240" text-anchor="middle" fill="#ffffff60" font-family="'Courier New',Courier,monospace" font-size="9" letter-spacing="2">INTERNSHIPS</text>
 
-  <div class="line-wrap">
-    <div class="h-line"></div>
-    <div class="diamond"></div>
-    <div class="h-line right"></div>
-  </div>
+  <!-- Separator 1 -->
+  <line x1="305" y1="210" x2="305" y2="248" stroke="#ffffff18" stroke-width="1"/>
 
-  <div class="role-wrap">
-    <span id="typewriter"></span><span class="cursor"></span>
-  </div>
+  <!-- Stat 2: Certifications -->
+  <text x="387" y="222" text-anchor="middle" fill="#00ffc8" font-family="'Courier New',Courier,monospace" font-size="26" font-weight="700" letter-spacing="1">11+</text>
+  <text x="387" y="240" text-anchor="middle" fill="#ffffff60" font-family="'Courier New',Courier,monospace" font-size="9" letter-spacing="2">CERTS</text>
 
-  <div class="tags">
-    <span class="tag cyan">LangChain</span>
-    <span class="tag violet">RAG Pipelines</span>
-    <span class="tag cyan">Agentic AI</span>
-    <span class="tag blue">LLM Systems</span>
-    <span class="tag violet">MCP Architecture</span>
-    <span class="tag cyan">FastAPI</span>
-    <span class="tag blue">Claude API</span>
-    <span class="tag violet">LangGraph</span>
-  </div>
+  <!-- Separator 2 -->
+  <line x1="430" y1="210" x2="430" y2="248" stroke="#ffffff18" stroke-width="1"/>
 
-  <div class="stats">
-    <div class="stat">
-      <span class="stat-num"><span>6</span></span>
-      <span class="stat-label">Internships</span>
-    </div>
-    <div class="sep"></div>
-    <div class="stat">
-      <span class="stat-num"><span>11</span>+</span>
-      <span class="stat-label">Certifications</span>
-    </div>
-    <div class="sep"></div>
-    <div class="stat">
-      <span class="stat-num"><span>2</span></span>
-      <span class="stat-label">Live Projects</span>
-    </div>
-    <div class="sep"></div>
-    <div class="stat">
-      <span class="stat-num"><span>∞</span></span>
-      <span class="stat-label">Building</span>
-    </div>
-  </div>
+  <!-- Stat 3: Projects -->
+  <text x="513" y="222" text-anchor="middle" fill="#bf5fff" font-family="'Courier New',Courier,monospace" font-size="26" font-weight="700" letter-spacing="1">2</text>
+  <text x="513" y="240" text-anchor="middle" fill="#ffffff60" font-family="'Courier New',Courier,monospace" font-size="9" letter-spacing="2">LIVE APPS</text>
 
-</div>
+  <!-- Separator 3 -->
+  <line x1="555" y1="210" x2="555" y2="248" stroke="#ffffff18" stroke-width="1"/>
 
-<script>
-/* ── Neural Network Particle Canvas ── */
-const cvs = document.getElementById('canvas');
-const ctx = cvs.getContext('2d');
-let W, H, nodes = [], mouse = {x:-9999,y:-9999};
-const NODE_COUNT = 80;
-const MAX_DIST = 160;
+  <!-- Stat 4: Building -->
+  <text x="638" y="222" text-anchor="middle" fill="#5fb4ff" font-family="'Courier New',Courier,monospace" font-size="26" font-weight="700" letter-spacing="1">&#8734;</text>
+  <text x="638" y="240" text-anchor="middle" fill="#ffffff60" font-family="'Courier New',Courier,monospace" font-size="9" letter-spacing="2">BUILDING</text>
+</g>
 
-function resize(){
-  W = cvs.width = window.innerWidth;
-  H = cvs.height = window.innerHeight;
-}
-resize();
-window.addEventListener('resize', ()=>{ resize(); init(); });
-window.addEventListener('mousemove', e=>{ mouse.x=e.clientX; mouse.y=e.clientY; });
-
-class Node{
-  constructor(){this.reset(true)}
-  reset(init){
-    this.x = Math.random()*W;
-    this.y = Math.random()*H;
-    this.vx = (Math.random()-0.5)*0.4;
-    this.vy = (Math.random()-0.5)*0.4;
-    this.r  = Math.random()*2+0.8;
-    this.opacity = Math.random()*0.6+0.2;
-    this.color = Math.random()>0.6 ? '#00ffc8' : Math.random()>0.5 ? '#bf5fff' : '#5fb4ff';
-  }
-  update(){
-    this.x += this.vx; this.y += this.vy;
-    const dx=this.x-mouse.x, dy=this.y-mouse.y, d=Math.sqrt(dx*dx+dy*dy);
-    if(d<90){ this.x+=dx/d*1.2; this.y+=dy/d*1.2; }
-    if(this.x<0||this.x>W) this.vx*=-1;
-    if(this.y<0||this.y>H) this.vy*=-1;
-    this.x=Math.max(0,Math.min(W,this.x));
-    this.y=Math.max(0,Math.min(H,this.y));
-  }
-  draw(){
-    ctx.beginPath();
-    ctx.arc(this.x,this.y,this.r,0,Math.PI*2);
-    ctx.fillStyle=this.color;
-    ctx.globalAlpha=this.opacity;
-    ctx.fill();
-    ctx.globalAlpha=1;
-  }
-}
-
-function init(){
-  nodes=[];
-  for(let i=0;i<NODE_COUNT;i++) nodes.push(new Node());
-}
-init();
-
-function drawEdges(){
-  for(let i=0;i<nodes.length;i++){
-    for(let j=i+1;j<nodes.length;j++){
-      const dx=nodes[i].x-nodes[j].x, dy=nodes[i].y-nodes[j].y;
-      const d=Math.sqrt(dx*dx+dy*dy);
-      if(d<MAX_DIST){
-        const a=(1-d/MAX_DIST)*0.35;
-        ctx.beginPath();
-        ctx.moveTo(nodes[i].x,nodes[i].y);
-        ctx.lineTo(nodes[j].x,nodes[j].y);
-        ctx.strokeStyle=nodes[i].color;
-        ctx.globalAlpha=a;
-        ctx.lineWidth=0.5;
-        ctx.stroke();
-        ctx.globalAlpha=1;
-      }
-    }
-  }
-}
-
-function loop(){
-  ctx.clearRect(0,0,W,H);
-  ctx.fillStyle='#020408';
-  ctx.fillRect(0,0,W,H);
-  drawEdges();
-  nodes.forEach(n=>{ n.update(); n.draw(); });
-  requestAnimationFrame(loop);
-}
-loop();
-
-/* ── Typewriter ── */
-const roles=[
-  'Building RAG Pipelines',
-  'LLM Systems Engineer',
-  'Agentic AI Developer',
-  'MCP Architecture',
-  'GenAI Product Builder',
-  'AI-First Startup Ready'
-];
-let ri=0,ci=0,del=false;
-const tw=document.getElementById('typewriter');
-
-function type(){
-  const word=roles[ri];
-  if(!del){
-    ci++;
-    tw.textContent=word.slice(0,ci);
-    if(ci===word.length){ del=true; setTimeout(type,1800); return; }
-  } else {
-    ci--;
-    tw.textContent=word.slice(0,ci);
-    if(ci===0){ del=false; ri=(ri+1)%roles.length; }
-  }
-  setTimeout(type, del?45:80);
-}
-setTimeout(type,1400);
-</script>
-</body>
-</html>
+<!-- Bottom coordinates -->
+<g class="crd">
+  <text x="52" y="278" fill="#00ffc840" font-family="'Courier New',Courier,monospace" font-size="8.5" letter-spacing="2">26°N 80°E // KANPUR.IN</text>
+  <text x="848" y="278" text-anchor="end" fill="#00ffc840" font-family="'Courier New',Courier,monospace" font-size="8.5" letter-spacing="2">SYS_ID // AY-2025</text>
+</g>
+</svg>
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <div align="center">
