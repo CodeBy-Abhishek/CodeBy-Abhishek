@@ -5,9 +5,6 @@
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=220&section=header&text=Abhishek%20Yadav&fontSize=58&fontColor=ffffff&fontAlignY=38&desc=AI%20Engineer%20%7C%20RAG%20Pipelines%20%7C%20Agentic%20AI%20%7C%20LLM%20Systems&descAlignY=60&descSize=17&descColor=c4b5fd&animation=fadeIn&stroke=a78bfa&strokeWidth=1" />
 </div>
 
-<div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=6,11,20,30,24&height=260&section=header&text=Abhishek%20Yadav&fontSize=62&fontColor=ffffff&fontAlignY=38&desc=⚡%20AI%20Engineer%20%7C%20RAG%20Pipelines%20%7C%20Agentic%20AI%20%7C%20LLM%20Systems%20⚡&descAlignY=62&descSize=17&descColor=c4b5fd&animation=twinkling&stroke=a78bfa&strokeWidth=2" />
-</div>
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--                    TYPING ANIMATION                        -->
 <!-- ═══════════════════════════════════════════════════════════ -->
