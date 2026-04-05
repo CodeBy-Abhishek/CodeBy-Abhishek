@@ -1,6 +1,410 @@
 <!-- <img width="1440" height="640" alt="image" src="https://github.com/user-attachments/assets/e735d2a6-2429-4858-9c8f-a9f965e027b1" /><!-- ═══════════════════════════════════════════════════════════ --> 
 <!--                    HEADER WAVE BANNER                      -->
 <!-- ═══════════════════════════════════════════════════════════ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Abhishek Yadav — AI Engineer</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Space+Mono:wght@400;700&family=Rajdhani:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:100%;height:100%;overflow:hidden;background:#020408}
+
+  #canvas{
+    position:absolute;inset:0;width:100%;height:100%;
+    z-index:0;
+  }
+
+  .overlay{
+    position:absolute;inset:0;z-index:1;
+    background:
+      radial-gradient(ellipse 80% 60% at 50% 50%, transparent 30%, #020408 100%),
+      repeating-linear-gradient(0deg, transparent, transparent 3px, rgba(0,255,200,0.015) 3px, rgba(0,255,200,0.015) 4px);
+    pointer-events:none;
+  }
+
+  .scanlines{
+    position:absolute;inset:0;z-index:2;
+    background:repeating-linear-gradient(
+      to bottom,
+      transparent 0px,transparent 1px,
+      rgba(0,0,0,0.12) 1px,rgba(0,0,0,0.12) 2px
+    );
+    pointer-events:none;animation:scan 8s linear infinite;
+  }
+  @keyframes scan{
+    0%{background-position:0 0}
+    100%{background-position:0 100vh}
+  }
+
+  .container{
+    position:relative;z-index:3;
+    width:100%;height:100%;
+    display:flex;flex-direction:column;
+    align-items:center;justify-content:center;
+    padding:2rem;
+    text-align:center;
+  }
+
+  /* --- top badge --- */
+  .badge{
+    font-family:'Space Mono',monospace;
+    font-size:11px;letter-spacing:4px;
+    color:#00ffc8;text-transform:uppercase;
+    border:1px solid rgba(0,255,200,0.35);
+    padding:6px 18px;border-radius:20px;
+    background:rgba(0,255,200,0.06);
+    margin-bottom:28px;
+    animation:fadeSlide 0.8s ease both;
+    box-shadow:0 0 18px rgba(0,255,200,0.18), inset 0 0 12px rgba(0,255,200,0.05);
+  }
+
+  /* --- name --- */
+  .name-wrap{position:relative;margin-bottom:14px}
+  .name{
+    font-family:'Orbitron',monospace;
+    font-weight:900;
+    font-size:clamp(36px,6vw,72px);
+    color:#fff;
+    letter-spacing:3px;
+    line-height:1;
+    animation:fadeSlide 0.9s 0.2s ease both;
+    position:relative;display:inline-block;
+  }
+  .name::before,.name::after{
+    content:'Abhishek Yadav';
+    position:absolute;top:0;left:0;
+    width:100%;height:100%;
+    font-family:'Orbitron',monospace;font-weight:900;
+    font-size:inherit;letter-spacing:3px;
+  }
+  .name::before{
+    color:#00ffc8;clip-path:polygon(0 0,100% 0,100% 35%,0 35%);
+    animation:glitch1 4s infinite;left:2px;
+  }
+  .name::after{
+    color:#bf5fff;clip-path:polygon(0 60%,100% 60%,100% 100%,0 100%);
+    animation:glitch2 4s infinite;left:-2px;
+  }
+
+  @keyframes glitch1{
+    0%,90%,100%{transform:translate(0);opacity:0}
+    91%{transform:translate(-3px,1px);opacity:0.9}
+    93%{transform:translate(3px,-1px);opacity:0.9}
+    95%{transform:translate(-2px,2px);opacity:0.7}
+    97%{transform:translate(0);opacity:0}
+  }
+  @keyframes glitch2{
+    0%,88%,100%{transform:translate(0);opacity:0}
+    89%{transform:translate(4px,-2px);opacity:0.9}
+    92%{transform:translate(-3px,1px);opacity:0.8}
+    94%{transform:translate(2px,0);opacity:0.6}
+    96%{transform:translate(0);opacity:0}
+  }
+
+  /* accent line */
+  .line-wrap{
+    display:flex;align-items:center;justify-content:center;
+    gap:14px;margin-bottom:22px;
+    animation:fadeSlide 1s 0.4s ease both;
+  }
+  .h-line{
+    height:1px;width:80px;
+    background:linear-gradient(to right,transparent,#00ffc8);
+  }
+  .h-line.right{background:linear-gradient(to left,transparent,#00ffc8)}
+  .diamond{
+    width:8px;height:8px;
+    background:#00ffc8;transform:rotate(45deg);
+    box-shadow:0 0 12px #00ffc8,0 0 24px rgba(0,255,200,0.5);
+    animation:pulse 2s ease-in-out infinite;
+  }
+  @keyframes pulse{
+    0%,100%{box-shadow:0 0 8px #00ffc8,0 0 18px rgba(0,255,200,0.4)}
+    50%{box-shadow:0 0 18px #00ffc8,0 0 36px rgba(0,255,200,0.7)}
+  }
+
+  /* --- typewriter role --- */
+  .role-wrap{
+    font-family:'Rajdhani',sans-serif;
+    font-size:clamp(14px,2.2vw,22px);
+    font-weight:600;
+    letter-spacing:2px;
+    color:rgba(255,255,255,0.85);
+    margin-bottom:28px;
+    height:30px;
+    animation:fadeSlide 1s 0.5s ease both;
+  }
+  .cursor{
+    display:inline-block;
+    width:2px;height:1em;
+    background:#bf5fff;
+    margin-left:3px;
+    vertical-align:text-bottom;
+    animation:blink 0.75s step-end infinite;
+  }
+  @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+
+  /* --- tags --- */
+  .tags{
+    display:flex;flex-wrap:wrap;
+    justify-content:center;gap:10px;
+    margin-bottom:36px;
+    animation:fadeSlide 1s 0.7s ease both;
+  }
+  .tag{
+    font-family:'Space Mono',monospace;
+    font-size:10px;letter-spacing:1.5px;
+    padding:5px 14px;border-radius:4px;
+    text-transform:uppercase;
+    transition:all 0.3s ease;cursor:default;
+  }
+  .tag.cyan{
+    color:#00ffc8;border:1px solid rgba(0,255,200,0.4);
+    background:rgba(0,255,200,0.06);
+  }
+  .tag.violet{
+    color:#bf5fff;border:1px solid rgba(191,95,255,0.4);
+    background:rgba(191,95,255,0.06);
+  }
+  .tag.blue{
+    color:#5fb4ff;border:1px solid rgba(95,180,255,0.4);
+    background:rgba(95,180,255,0.06);
+  }
+  .tag:hover{transform:translateY(-2px);filter:brightness(1.3)}
+
+  /* --- stats row --- */
+  .stats{
+    display:flex;gap:clamp(16px,3vw,42px);
+    animation:fadeSlide 1s 0.9s ease both;
+  }
+  .stat{text-align:center}
+  .stat-num{
+    font-family:'Orbitron',monospace;
+    font-weight:700;
+    font-size:clamp(18px,2.5vw,28px);
+    color:#fff;
+    display:block;
+    line-height:1;
+  }
+  .stat-num span{color:#00ffc8}
+  .stat-label{
+    font-family:'Rajdhani',sans-serif;
+    font-size:11px;letter-spacing:2px;
+    color:rgba(255,255,255,0.4);
+    text-transform:uppercase;
+    margin-top:4px;display:block;
+  }
+  .sep{width:1px;background:rgba(255,255,255,0.1);align-self:stretch}
+
+  /* corner decorations */
+  .corner{position:absolute;width:28px;height:28px;z-index:3}
+  .corner.tl{top:18px;left:18px;border-top:2px solid #00ffc8;border-left:2px solid #00ffc8}
+  .corner.tr{top:18px;right:18px;border-top:2px solid #00ffc8;border-right:2px solid #00ffc8}
+  .corner.bl{bottom:18px;left:18px;border-bottom:2px solid rgba(0,255,200,0.4);border-left:2px solid rgba(0,255,200,0.4)}
+  .corner.br{bottom:18px;right:18px;border-bottom:2px solid rgba(0,255,200,0.4);border-right:2px solid rgba(0,255,200,0.4)}
+
+  /* coords label */
+  .coords{
+    position:absolute;bottom:14px;right:52px;
+    font-family:'Space Mono',monospace;font-size:9px;
+    color:rgba(0,255,200,0.3);letter-spacing:2px;z-index:3;
+  }
+  .coords-l{
+    position:absolute;bottom:14px;left:52px;
+    font-family:'Space Mono',monospace;font-size:9px;
+    color:rgba(0,255,200,0.3);letter-spacing:2px;z-index:3;
+  }
+
+  @keyframes fadeSlide{
+    from{opacity:0;transform:translateY(16px)}
+    to{opacity:1;transform:translateY(0)}
+  }
+</style>
+</head>
+<body>
+
+<canvas id="canvas"></canvas>
+<div class="overlay"></div>
+<div class="scanlines"></div>
+
+<!-- Corners -->
+<div class="corner tl"></div>
+<div class="corner tr"></div>
+<div class="corner bl"></div>
+<div class="corner br"></div>
+<div class="coords">26°N 80°E // KANPUR.IN</div>
+<div class="coords-l">SYS_ID // AY-2025-BCA</div>
+
+<div class="container">
+
+  <div class="badge">⬡ &nbsp;AI Engineer &nbsp;⬡</div>
+
+  <div class="name-wrap">
+    <h1 class="name">Abhishek Yadav</h1>
+  </div>
+
+  <div class="line-wrap">
+    <div class="h-line"></div>
+    <div class="diamond"></div>
+    <div class="h-line right"></div>
+  </div>
+
+  <div class="role-wrap">
+    <span id="typewriter"></span><span class="cursor"></span>
+  </div>
+
+  <div class="tags">
+    <span class="tag cyan">LangChain</span>
+    <span class="tag violet">RAG Pipelines</span>
+    <span class="tag cyan">Agentic AI</span>
+    <span class="tag blue">LLM Systems</span>
+    <span class="tag violet">MCP Architecture</span>
+    <span class="tag cyan">FastAPI</span>
+    <span class="tag blue">Claude API</span>
+    <span class="tag violet">LangGraph</span>
+  </div>
+
+  <div class="stats">
+    <div class="stat">
+      <span class="stat-num"><span>6</span></span>
+      <span class="stat-label">Internships</span>
+    </div>
+    <div class="sep"></div>
+    <div class="stat">
+      <span class="stat-num"><span>11</span>+</span>
+      <span class="stat-label">Certifications</span>
+    </div>
+    <div class="sep"></div>
+    <div class="stat">
+      <span class="stat-num"><span>2</span></span>
+      <span class="stat-label">Live Projects</span>
+    </div>
+    <div class="sep"></div>
+    <div class="stat">
+      <span class="stat-num"><span>∞</span></span>
+      <span class="stat-label">Building</span>
+    </div>
+  </div>
+
+</div>
+
+<script>
+/* ── Neural Network Particle Canvas ── */
+const cvs = document.getElementById('canvas');
+const ctx = cvs.getContext('2d');
+let W, H, nodes = [], mouse = {x:-9999,y:-9999};
+const NODE_COUNT = 80;
+const MAX_DIST = 160;
+
+function resize(){
+  W = cvs.width = window.innerWidth;
+  H = cvs.height = window.innerHeight;
+}
+resize();
+window.addEventListener('resize', ()=>{ resize(); init(); });
+window.addEventListener('mousemove', e=>{ mouse.x=e.clientX; mouse.y=e.clientY; });
+
+class Node{
+  constructor(){this.reset(true)}
+  reset(init){
+    this.x = Math.random()*W;
+    this.y = Math.random()*H;
+    this.vx = (Math.random()-0.5)*0.4;
+    this.vy = (Math.random()-0.5)*0.4;
+    this.r  = Math.random()*2+0.8;
+    this.opacity = Math.random()*0.6+0.2;
+    this.color = Math.random()>0.6 ? '#00ffc8' : Math.random()>0.5 ? '#bf5fff' : '#5fb4ff';
+  }
+  update(){
+    this.x += this.vx; this.y += this.vy;
+    const dx=this.x-mouse.x, dy=this.y-mouse.y, d=Math.sqrt(dx*dx+dy*dy);
+    if(d<90){ this.x+=dx/d*1.2; this.y+=dy/d*1.2; }
+    if(this.x<0||this.x>W) this.vx*=-1;
+    if(this.y<0||this.y>H) this.vy*=-1;
+    this.x=Math.max(0,Math.min(W,this.x));
+    this.y=Math.max(0,Math.min(H,this.y));
+  }
+  draw(){
+    ctx.beginPath();
+    ctx.arc(this.x,this.y,this.r,0,Math.PI*2);
+    ctx.fillStyle=this.color;
+    ctx.globalAlpha=this.opacity;
+    ctx.fill();
+    ctx.globalAlpha=1;
+  }
+}
+
+function init(){
+  nodes=[];
+  for(let i=0;i<NODE_COUNT;i++) nodes.push(new Node());
+}
+init();
+
+function drawEdges(){
+  for(let i=0;i<nodes.length;i++){
+    for(let j=i+1;j<nodes.length;j++){
+      const dx=nodes[i].x-nodes[j].x, dy=nodes[i].y-nodes[j].y;
+      const d=Math.sqrt(dx*dx+dy*dy);
+      if(d<MAX_DIST){
+        const a=(1-d/MAX_DIST)*0.35;
+        ctx.beginPath();
+        ctx.moveTo(nodes[i].x,nodes[i].y);
+        ctx.lineTo(nodes[j].x,nodes[j].y);
+        ctx.strokeStyle=nodes[i].color;
+        ctx.globalAlpha=a;
+        ctx.lineWidth=0.5;
+        ctx.stroke();
+        ctx.globalAlpha=1;
+      }
+    }
+  }
+}
+
+function loop(){
+  ctx.clearRect(0,0,W,H);
+  ctx.fillStyle='#020408';
+  ctx.fillRect(0,0,W,H);
+  drawEdges();
+  nodes.forEach(n=>{ n.update(); n.draw(); });
+  requestAnimationFrame(loop);
+}
+loop();
+
+/* ── Typewriter ── */
+const roles=[
+  'Building RAG Pipelines',
+  'LLM Systems Engineer',
+  'Agentic AI Developer',
+  'MCP Architecture',
+  'GenAI Product Builder',
+  'AI-First Startup Ready'
+];
+let ri=0,ci=0,del=false;
+const tw=document.getElementById('typewriter');
+
+function type(){
+  const word=roles[ri];
+  if(!del){
+    ci++;
+    tw.textContent=word.slice(0,ci);
+    if(ci===word.length){ del=true; setTimeout(type,1800); return; }
+  } else {
+    ci--;
+    tw.textContent=word.slice(0,ci);
+    if(ci===0){ del=false; ri=(ri+1)%roles.length; }
+  }
+  setTimeout(type, del?45:80);
+}
+setTimeout(type,1400);
+</script>
+</body>
+</html>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
 <div align="center">
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=220&section=header&text=Abhishek%20Yadav&fontSize=58&fontColor=ffffff&fontAlignY=38&desc=AI%20Engineer%20%7C%20RAG%20Pipelines%20%7C%20Agentic%20AI%20%7C%20LLM%20Systems&descAlignY=60&descSize=17&descColor=c4b5fd&animation=fadeIn&stroke=a78bfa&strokeWidth=1" />
 </div>
