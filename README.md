@@ -1,4 +1,4 @@
-<img width="1440" height="640" alt="image" src="https://github.com/user-attachments/assets/e735d2a6-2429-4858-9c8f-a9f965e027b1" <!-- ═══════════════════════════════════════════════════════════ --> 
+<!--<img width="1440" height="640" alt="image" src="https://github.com/user-attachments/assets/e735d2a6-2429-4858-9c8f-a9f965e027b1"-->  <!-- ═══════════════════════════════════════════════════════════ --> 
 <!--                    HEADER WAVE BANNER                      -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
