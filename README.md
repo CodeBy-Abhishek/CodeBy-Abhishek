@@ -2,7 +2,6 @@
 <!--                    HEADER WAVE BANNER                      -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-<!-- ═══════════════════════════════════════════════════════════ -->
 <div align="center">
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=220&section=header&text=Abhishek%20Yadav&fontSize=58&fontColor=ffffff&fontAlignY=38&desc=AI%20Engineer%20%7C%20RAG%20Pipelines%20%7C%20Agentic%20AI%20%7C%20LLM%20Systems&descAlignY=60&descSize=17&descColor=c4b5fd&animation=fadeIn&stroke=a78bfa&strokeWidth=1" />
 </div>
@@ -11,20 +10,15 @@
 <!--                    TYPING ANIMATION                        -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-
-<!-- <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=17&pause=1000&color=A78BFA&center=true&vCenter=true&width=780&height=45&lines=🤖+Building+Production+RAG+%26+Agentic+AI+Systems;⚡+Anthropic+API+%7C+LangChain+%7C+LangGraph+%7C+ChromaDB+%7C+MCP;🚀+Live+Deployed+→+HuggingFace+Spaces;📜+11x+Anthropic+Academy+Certified+%7C+Kanpur+🇮🇳;🔍+Seeking+AI+Engineer+%7C+LLM+Engineer+%7C+GenAI+Developer" />
-</p> -->
-
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=17&pause=1000&color=A78BFA&center=true&vCenter=true&width=900&height=60&lines=Building+Production+RAG+and+Agentic+AI+Systems;Anthropic+API+%7C+LangChain+%7C+LangGraph+%7C+ChromaDB+%7C+MCP;Live+Deployed+on+HuggingFace+Spaces;Anthropic+Certified+Developer+%7C+Kanpur+India;Seeking+AI+Engineer+%7C+LLM+Engineer+%7C+GenAI+Developer" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=17&pause=1000&color=A78BFA&center=true&vCenter=true&width=900&height=60&lines=Building+Production+RAG+and+Agentic+AI+Systems;Anthropic+API+%7C+LangChain+%7C+LangGraph+%7C+ChromaDB+%7C+MCP;Live+Deployed+on+HuggingFace+Spaces;11x+Anthropic+Certified+Developer+%7C+Kanpur+India;Seeking+AI+Engineer+%7C+LLM+Engineer+%7C+GenAI+Developer" alt="Typing SVG" />
 </p>
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--                    SOCIAL LINKS                            -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 <p align="center">
-  <a href="https://3-d-protfolio.vercel.app/" target="_blank">
+  <a href="https://3-d-portfolio.vercel.app/" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=googlechrome&logoColor=white" />
   </a>&nbsp;
   <a href="https://www.linkedin.com/in/abhishek-yadav72/" target="_blank">
@@ -72,17 +66,18 @@ class AbhishekYadav:
     location   = "Kanpur, Uttar Pradesh, India 🇮🇳"
 
     specializations = [
-        "3-Stage RAG:   Retrieval → Hybrid Search + RRF → Agentic Generation",
-        "Agentic AI:    Chaining | Routing | Parallelization | Evaluator-Optimizer",
-        "MCP Protocol:  Custom Tool Servers + Claude Orchestration (stdio/SSE)",
-        "LLM Eng:       Prompt Caching | Files API | Extended Thinking | Batch",
-        "Multi-Agent:   LangGraph Orchestration with Tool-Augmented Workflows",
+        "3-Stage RAG:      Retrieval → Hybrid Search + RRF → Agentic Generation",
+        "Agentic AI:       Chaining | Routing | Parallelization | Evaluator-Optimizer",
+        "MCP Protocol:     Custom Tool Servers + Claude Orchestration (stdio/SSE)",
+        "LLM Eng:          Prompt Caching | Files API | Extended Thinking | Batch",
+        "Multi-Agent:      LangGraph Orchestration with Tool-Augmented Workflows",
+        "Observability:    LangSmith Tracing | End-to-End LLM Evaluation",
     ]
 
     stack = {
-        "LLM":       ["Anthropic API", "LangChain", "LangGraph", "ChromaDB"],
-        "Infra":     ["FastAPI", "Docker", "HuggingFace Spaces", "Railway"],
-        "Languages": ["Python", "TypeScript", "JavaScript"],
+        "LLM":         ["Anthropic API", "LangChain", "LangGraph", "ChromaDB", "LangSmith"],
+        "Infra":       ["FastAPI", "Docker", "HuggingFace Spaces", "Streamlit", "Railway"],
+        "Languages":   ["Python", "TypeScript", "JavaScript"],
     }
 
     certifications = "11x Anthropic Academy 🏅"
@@ -106,8 +101,9 @@ class AbhishekYadav:
 
 ```
 🔨  Multi-Agent LangGraph Orchestration    →  Tool-routing + parallel subgraph execution
-📡  Extended MCP Server Architecture       →  SSE transport + custom Resource + Prompt primitives  
+📡  Extended MCP Server Architecture       →  SSE transport + custom Resource + Prompt primitives
 🧪  Evaluator-Optimizer Agent Loop         →  Self-improving RAG with reflection pattern
+📊  LangSmith Observability Layer          →  End-to-end tracing + multi-agent evals
 ```
 
 <br/>
@@ -132,7 +128,7 @@ Production **3-stage AI pipeline** combining RAG + Computer Vision + Agentic AI 
 ```
 Stage 1 ── Ingestion & Vision
            PDF → OCR → Chunking → Embedding
-           
+
 Stage 2 ── Hybrid RAG Retrieval
            ChromaDB  +  all-MiniLM-L6-v2
            Dense + Sparse → RRF Reranking
@@ -157,7 +153,7 @@ Stage 3 ── Agentic Generation
 <td width="50%" valign="top">
 
 ### ⚡ MCP Lead Generation System
-> 🏗️ **Architecturally Distinctive**
+> 🟢 **Live on Render + Streamlit Cloud**
 
 **MCP-powered agentic system** — Claude orchestrates custom Python MCP servers for end-to-end automated lead generation.
 
@@ -184,6 +180,7 @@ Transport: stdio  |  Server: FastAPI + Python
 ![MCP](https://img.shields.io/badge/MCP_Protocol-6366F1?style=flat-square)
 ![Claude](https://img.shields.io/badge/Claude_API-D97706?style=flat-square)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 ![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white)
 
 [![GitHub](https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github)](https://github.com/CodeBy-Abhishek/mcp-lead-gen-system)
@@ -208,6 +205,7 @@ Transport: stdio  |  Server: FastAPI + Python
   <img src="https://img.shields.io/badge/Anthropic_API-D97706?style=for-the-badge&logoColor=white" />
   <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logoColor=white" />
   <img src="https://img.shields.io/badge/LangGraph-4A90D9?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/LangSmith-1C3C3C?style=for-the-badge&logoColor=white" />
   <img src="https://img.shields.io/badge/ChromaDB-FF6B35?style=for-the-badge&logoColor=white" />
   <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
   <img src="https://img.shields.io/badge/MCP_Protocol-6366F1?style=for-the-badge&logoColor=white" />
@@ -215,6 +213,7 @@ Transport: stdio  |  Server: FastAPI + Python
   <img src="https://img.shields.io/badge/Agentic_AI-EF4444?style=for-the-badge&logoColor=white" />
   <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
   <img src="https://img.shields.io/badge/Prompt_Engineering-10B981?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/LLM_Evaluation-8B5CF6?style=for-the-badge&logoColor=white" />
   <img src="https://img.shields.io/badge/Vector_DB-8B5CF6?style=for-the-badge&logoColor=white" />
   <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" />
 </p>
@@ -275,13 +274,13 @@ Transport: stdio  |  Server: FastAPI + Python
 
 ## 💼 Experience — 6 Internships
 
-| # | Company | Role | Type |
-|---|---------|------|------|
+| # | Company | Role | Domain |
+|---|---------|------|--------|
 | 6 | **Codevirus Security** | Security + AI Integration | Cybersecurity |
-| 5 | **Code-A-Nova** | AI Developer Intern | AI/ML |
-| 4 | **Klynt Solutions** | Full-Stack + AI | Product |
+| 5 | **Code-A-Nova** | AI Developer Intern | AI / ML |
+| 4 | **Klynt Solutions** | Full-Stack + AI Intern | Product |
 | 3 | **HexSoftwares** | Software Developer Intern | Full-Stack |
-| 2 | **Google Developer Campus** | Developer Intern | Cloud/Dev |
+| 2 | **Google Developer Campus** | Developer Intern | Cloud / Dev |
 | 1 | *(Earlier Internship)* | Web Development | Frontend |
 
 <br/>
@@ -299,18 +298,14 @@ Transport: stdio  |  Server: FastAPI + Python
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=CodeBy-Abhishek&hide_border=true&theme=tokyonight" height="175"/>
 </p>
 
-
-
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CodeBy-Abhishek&layout=compact&hide_border=true&theme=tokyonight&langs_count=8&hide=jupyter%20notebook,html,css" height="148"/>
 </p>
-
 
 <!-- TROPHIES -->
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=CodeBy-Abhishek&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=6" />
 </p>
-
 
 <!-- ACTIVITY GRAPH -->
 <p align="center">
@@ -330,14 +325,7 @@ Transport: stdio  |  Server: FastAPI + Python
   <img src="https://komarev.com/ghpvc/?username=CodeBy-Abhishek&style=for-the-badge&color=7c3aed&label=Profile+Views" />
 </p>
 
-
-
-
-
 <table align="center">
-<tr>
-</tr>
-
 <tr>
 <td><img src="https://skillicons.dev/icons?i=html"/></td>
 <td><img src="https://skillicons.dev/icons?i=css"/></td>
@@ -347,12 +335,8 @@ Transport: stdio  |  Server: FastAPI + Python
 <td><img src="https://skillicons.dev/icons?i=react"/></td>
 <td><img src="https://skillicons.dev/icons?i=nextjs"/></td>
 <td><img src="https://skillicons.dev/icons?i=typescript"/></td>
-<td align="center">
-  <img src="https://skillicons.dev/icons?i=mui" />
-</td>
+<td align="center"><img src="https://skillicons.dev/icons?i=mui" /></td>
 </tr>
-
-
 <tr>
 <td><img src="https://skillicons.dev/icons?i=expressjs"/></td>
 <td><img src="https://skillicons.dev/icons?i=nodejs"/></td>
@@ -364,39 +348,27 @@ Transport: stdio  |  Server: FastAPI + Python
 <td><img src="https://skillicons.dev/icons?i=postgres"/></td>
 <td><img src="https://skillicons.dev/icons?i=mongodb"/></td>
 </tr>
-
 <tr>
 <td><img src="https://skillicons.dev/icons?i=aws"/></td>
 <td><img src="https://skillicons.dev/icons?i=docker"/></td>
 <td><img src="https://skillicons.dev/icons?i=tensorflow"/></td>
 <td><img src="https://skillicons.dev/icons?i=pytorch"/></td>
 <td><img src="https://skillicons.dev/icons?i=matlab"/></td>
-<!-- <td><img src="https://skillicons.dev/icons?i=tableau"/></td>
-<td><img src="https://skillicons.dev/icons?i=openai"/></td>
-<td><img src="https://skillicons.dev/icons?i=databricks"/></td> -->
 <td><img src="https://skillicons.dev/icons?i=redis"/></td>
 <td><img src="https://skillicons.dev/icons?i=vscode"/></td>
 <td><img src="https://skillicons.dev/icons?i=linux"/></td>
 <td><img src="https://skillicons.dev/icons?i=git"/></td>
 </tr>
-
-<tr>
-<!-- <td><img src="https://skillicons.dev/icons?i=redis"/></td>
-<td><img src="https://skillicons.dev/icons?i=spark"/></td>
-<td><img src="https://skillicons.dev/icons?i=iceberg"/></td>
-<td><img src="https://skillicons.dev/icons?i=snowflake"/></td>
-<td><img src="https://skillicons.dev/icons?i=minio"/></td>
-<td><img src="https://skillicons.dev/icons?i=vscode"/></td>
-<td><img src="https://skillicons.dev/icons?i=linux"/></td>
-<td><img src="https://skillicons.dev/icons?i=git"/></td> -->
-</tr>
 </table>
+
 <p align="center">
   <img src="https://img.shields.io/badge/REST%20API-02569B?style=for-the-badge" />
   <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
   <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" />
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
   <img src="https://img.shields.io/badge/SQL-003B57?style=for-the-badge" />
 </p>
+
 ---
 
 <!-- ═══════════════════════════════════════════════════════════ -->
