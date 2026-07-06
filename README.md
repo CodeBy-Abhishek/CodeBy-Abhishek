@@ -78,7 +78,7 @@ class AbhishekYadav:
 
     stack = {
         "LLM":         ["Anthropic API", "LangChain", "LangGraph", "ChromaDB", "LangSmith"],
-        "Agentic":     ["CrewAI", "Claude Agent SDK", "MCP", "Pydantic AI", "LangGraph"],
+        "Agentic":     ["LangGraph", "PydanticAI", "smolagents", "Claude Agent SDK", "MCP" ],
         "MLOps":       ["Langfuse", "vLLM", "LiteLLM", "Redis Caching", "RAGAS Evals"],
         "Infra":       ["FastAPI", "Docker", "Kubernetes", "HuggingFace Spaces", "Railway"],
         "Languages":   ["Python", "TypeScript", "JavaScript"],
@@ -264,10 +264,10 @@ Transport: stdio  |  Server: FastAPI + Python
 
 <p>
   <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/CrewAI-FF4B4B?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Claude_Agent_SDK-D97706?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/AutoGen_/_AG2-00A4EF?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Pydantic_AI-E92063?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Claude_Agent_SDK-D97706?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/CrewAI-FF4B4B?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/AutoGen_/_AG2-00A4EF?style=for-the-badge" />
   <img src="https://img.shields.io/badge/MCP_Protocol-6366F1?style=for-the-badge" />
   <img src="https://img.shields.io/badge/A2A_Protocol-6366F1?style=for-the-badge" />
   <img src="https://img.shields.io/badge/vLLM-10B981?style=for-the-badge" />
