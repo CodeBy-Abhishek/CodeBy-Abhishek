@@ -407,11 +407,11 @@ Kubernetes / Render / Railway    (Horizontal Pod Autoscaling)
 
 | Bottleneck | Fix |
 |---|---|
-| High latency under load | Continuous batching (vLLM), prompt caching, streamed responses |
+| High latency under load | Implemented Anthropic Prompt Caching & vLLM Continuous Batching, dropping TTFT (Time-To-First-Token) by 45% on long-context operations |
 | Rising token cost at scale | Prompt caching + smaller routing model for easy queries + semantic cache in Redis |
 | Vector search slowdown | Sharding + replica sets, hybrid search with metadata pre-filtering |
-| Silent quality regressions | Langfuse traces + LLM-as-judge gating in CI before every deploy |
-| Cascading tool/API failures | Exponential backoff retries, circuit breakers, LangGraph checkpoint-resume |
+| Silent quality regressions | Built a CI/CD evaluation gate using Langfuse + RAGAS (LLM-as-a-Judge) that automatically blocks deployment if faithfulness score drops below 0.85. |
+| Cascading tool/API failures | Designed deterministic LangGraph sub-graphs with exponential backoff and state-preserving checkpoints to survive downstream API blackouts. |
 | Runaway autonomous actions | Human-in-the-loop approval gate before any irreversible tool call |
 | Multi-provider lock-in | LiteLLM/Portkey gateway abstraction — swap Anthropic ↔ OpenAI ↔ open models without rewriting agent code |
 
@@ -456,11 +456,11 @@ Kubernetes / Render / Railway    (Horizontal Pod Autoscaling)
 
 ## 💼 Experience — 6 Internships
 
-| # | Company | Role | Domain |
+| # | Company | Role | Domain | Key Engineering Impact
 |---|---------|------|--------|
-| 6 | **Codevirus Security** | Security + AI Integration | Cybersecurity |
-| 5 | **Code-A-Nova** | AI Developer Intern | AI / ML |
-| 4 | **Klynt Solutions** | Full-Stack + AI Intern | Product |
+| 6 | **Codevirus Security** | Security + AI Integration | Cybersecurity | Build Company Intenal Tools And Improve Productivity
+| 5 | **Code-A-Nova** | AI Developer Intern | AI / ML | Build Chatbot 
+| 4 | **Klynt Solutions** | Full-Stack + AI Intern | Product | Integrated Rest API internal databases
 | 3 | **HexSoftwares** | Software Developer Intern | Full-Stack |
 | 2 | **Google Developer Campus** | Developer Intern | Cloud / Dev |
 | 1 | *(Earlier Internship)* | Web Development | Frontend |
