@@ -353,8 +353,6 @@ Transport: stdio  |  Server: FastAPI + Python
 </tr>
 </table>
 
-> ⚠️ Note: `skillicons.dev` (jo neeche table mein use ho raha hai) abhi in AI-tool logos ko support nahi karta — isliye yeh table shields.io badges se banaya hai, uske apne icon library se nahi. Functionally same "icon grid" look hai, bas source alag hai.
-
 ### ⚙️ Backend & APIs
 <p>
   <img src="https://skillicons.dev/icons?i=python,fastapi,flask,django,nodejs,expressjs" />
