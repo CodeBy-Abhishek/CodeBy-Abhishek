@@ -68,15 +68,19 @@ class AbhishekYadav:
     specializations = [
         "3-Stage RAG:      Retrieval → Hybrid Search + RRF → Agentic Generation",
         "Agentic AI:       Chaining | Routing | Parallelization | Evaluator-Optimizer",
+        "Autonomous Sys:   Perceive-Plan-Act-Reflect Loops with Human-in-the-Loop Gates",
         "MCP Protocol:     Custom Tool Servers + Claude Orchestration (stdio/SSE)",
         "LLM Eng:          Prompt Caching | Files API | Extended Thinking | Batch",
-        "Multi-Agent:      LangGraph Orchestration with Tool-Augmented Workflows",
-        "Observability:    LangSmith Tracing | End-to-End LLM Evaluation",
+        "Multi-Agent:      LangGraph / CrewAI Orchestration with Tool-Augmented Workflows",
+        "Observability:    LangSmith / Langfuse Tracing | End-to-End LLM Evaluation",
+        "Production:       Docker → K8s Autoscaling | vLLM Serving | AI Gateway Routing",
     ]
 
     stack = {
         "LLM":         ["Anthropic API", "LangChain", "LangGraph", "ChromaDB", "LangSmith"],
-        "Infra":       ["FastAPI", "Docker", "HuggingFace Spaces", "Streamlit", "Railway"],
+        "Agentic":     ["CrewAI", "Claude Agent SDK", "MCP", "Pydantic AI", "LangGraph"],
+        "MLOps":       ["Langfuse", "vLLM", "LiteLLM", "Redis Caching", "RAGAS Evals"],
+        "Infra":       ["FastAPI", "Docker", "Kubernetes", "HuggingFace Spaces", "Railway"],
         "Languages":   ["Python", "TypeScript", "JavaScript"],
     }
 
@@ -105,6 +109,64 @@ class AbhishekYadav:
 🧪  Evaluator-Optimizer Agent Loop         →  Self-improving RAG with reflection pattern
 📊  LangSmith Observability Layer          →  End-to-end tracing + multi-agent evals
 ```
+
+<br/>
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--             HOW AUTONOMOUS AGENTS ACTUALLY WORK            -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+
+## ⚙️ How Autonomous AI Agents Actually Work
+
+Most "AI agents" people ship are one API call with a system prompt. A **real
+autonomous system** runs a continuous loop — perceive, plan, act, reflect —
+backed by memory, tools, and a human checkpoint before anything irreversible.
+This is the architecture I build agents on:
+
+```
+                     ┌───────────────────────────────────────────┐
+                     │        ORCHESTRATOR  (LangGraph)           │
+                     │   State Graph · Checkpointing · Retries    │
+                     └────────────────────┬────────────────────────┘
+                                          │
+        ┌──────────────────┬──────────────┼──────────────┬──────────────────┐
+        ▼                  ▼              ▼              ▼                  ▼
+ ┌─────────────┐   ┌──────────────┐            ┌───────────────┐   ┌────────────────┐
+ │  PERCEIVE   │   │     PLAN      │            │      ACT       │   │    OBSERVE      │
+ │ User Input  │──▶│ Task Decompose │──────────▶│ Tool / MCP Call │──▶│ Result + Errors │
+ │ + RAG Ctx   │   │ + Agent Routing│            │ Function Exec  │   │  Sent Back In   │
+ └──────┬──────┘   └──────────────┘            └───────────────┘   └────────┬────────┘
+        │                                                                    │
+        │                    ┌──────────────┐    ┌────────────────┐         │
+        └───────────────────▶│    MEMORY     │◀───│    REFLECT      │◀────────┘
+                             │ Short-term +   │    │ Self-Critique /  │
+                             │ Vector Recall  │    │ Evaluator-Optim.│
+                             └──────────────┘    └────────┬────────┘
+                                                            │
+                                                  ┌────────▼─────────┐
+                                                  │  HUMAN-IN-LOOP    │
+                                                  │  Approval Gate     │
+                                                  │  (high-risk action)│
+                                                  └───────────────────┘
+```
+
+**What actually makes this "autonomous" vs. just a chatbot with tools:**
+
+| Layer | What it does | Tool I use |
+|---|---|---|
+| Orchestration | Explicit state graph, cycles, retries, resumable checkpoints | LangGraph |
+| Tool Access | Standardized, swappable connections to APIs/data/systems | MCP (Model Context Protocol) |
+| Memory | Short-term context window + long-term vector recall | ChromaDB / Pinecone |
+| Reflection | Agent critiques its own output before finalizing | Evaluator-Optimizer pattern |
+| Observability | Every LLM call, tool call, cost, and latency traced | Langfuse / LangSmith |
+| Guardrails | Autonomy stops before irreversible/high-risk actions | Human-in-the-loop approval gate |
+| Evaluation | Quality scored automatically before shipping a change | RAGAS + LLM-as-Judge |
+
+> 🎯 The gap between a "demo agent" and a **production autonomous system**
+> isn't the model — it's this loop: durable state, memory, full observability,
+> and a human checkpoint for anything that can't be undone.
 
 <br/>
 
@@ -195,6 +257,47 @@ Transport: stdio  |  Server: FastAPI + Python
 ---
 
 <!-- ═══════════════════════════════════════════════════════════ -->
+<!--          AGENTIC AI & AUTOMATION ARSENAL (2026)            -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+
+## 🕸️ Agentic AI & Automation Arsenal (2026)
+
+<p>
+  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/CrewAI-FF4B4B?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Claude_Agent_SDK-D97706?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/AutoGen_/_AG2-00A4EF?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Pydantic_AI-E92063?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/MCP_Protocol-6366F1?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/A2A_Protocol-6366F1?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/vLLM-10B981?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Groq-F55036?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Langfuse-000000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/LiteLLM-14B8A6?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Portkey-6366F1?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" />
+</p>
+
+| Category | Tool | Why it matters (fresher ko yeh pata hona chahiye) |
+|---|---|---|
+| **Orchestration** | LangGraph | Graph-based state machine — checkpointing, retries, human-in-the-loop. Most production-mature framework going into 2026, used by Klarna/Uber/LinkedIn-scale teams |
+| **Orchestration** | Claude Agent SDK | Anthropic-native — same architecture that powers Claude Code (hooks, MCP, sub-agents, skills) |
+| **Orchestration** | CrewAI | Role-based multi-agent crews — fastest path from idea → working prototype |
+| **Orchestration** | AutoGen / AG2 / Microsoft Agent Framework | Conversational multi-agent debate + consensus patterns |
+| **Protocol** | MCP (Model Context Protocol) | Open standard to connect agents to tools/data — Linux Foundation governed since 2025 |
+| **Protocol** | A2A (Agent-to-Agent) | Lets agents built on *different* frameworks discover & collaborate with each other |
+| **Inference / Serving** | vLLM | Continuous batching + PagedAttention for high-throughput self-hosted LLM serving |
+| **Inference / Serving** | Ollama | Local model serving for dev, offline, and edge-AI use cases |
+| **AI Gateway** | LiteLLM / Portkey | One unified API across 100+ LLM providers — routing, fallback, semantic caching |
+| **Observability** | Langfuse | Open-source tracing, prompt versioning, LLM-as-judge evals — self-hosted via Docker/Helm |
+| **Automation** | n8n | Visual workflow automation wired into agent tool-calls for real-world triggers |
+
+<br/>
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════ -->
 <!--                     TECH STACK                             -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
@@ -216,6 +319,9 @@ Transport: stdio  |  Server: FastAPI + Python
   <img src="https://img.shields.io/badge/LLM_Evaluation-8B5CF6?style=for-the-badge&logoColor=white" />
   <img src="https://img.shields.io/badge/Vector_DB-8B5CF6?style=for-the-badge&logoColor=white" />
   <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" />
+  <img src="https://img.shields.io/badge/CrewAI-FF4B4B?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/vLLM-10B981?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/Langfuse-000000?style=for-the-badge&logoColor=white" />
 </p>
 
 ### ⚙️ Backend & APIs
@@ -232,6 +338,53 @@ Transport: stdio  |  Server: FastAPI + Python
 <p>
   <img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,redis,docker,aws,linux,git" />
 </p>
+
+<br/>
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--          PRODUCTION DEPLOYMENT & SCALING                   -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+
+## 🚀 Production Deployment & Scaling
+
+Building an agent is ~20% of the real work. Making it survive production
+traffic, tool failures, and cost pressure is the other 80%. Yeh stack use
+karta hoon prototype → scaled production le jaane ke liye:
+
+```
+Code (FastAPI + LangGraph Agent)
+       │
+       ▼
+Docker Container ──▶ CI/CD (GitHub Actions) ──▶ Container Registry
+       │
+       ▼
+Kubernetes / Render / Railway    (Horizontal Pod Autoscaling)
+       │
+       ├── Model Serving   ──▶ vLLM / TGI (self-hosted) OR Anthropic API + Prompt Caching
+       │
+       ├── AI Gateway      ──▶ LiteLLM / Portkey (routing · fallback · rate limits · cost caps)
+       │
+       ├── Caching Layer   ──▶ Redis (semantic cache + session/agent state)
+       │
+       ├── Vector DB       ──▶ ChromaDB (dev) → Pinecone / Qdrant at scale (sharded + replicated)
+       │
+       └── Observability   ──▶ Langfuse (self-hosted, OpenTelemetry-native)
+                              + Prometheus / Grafana (infra metrics)
+```
+
+**Scaling bottlenecks aur unke fixes jo actually kaam karte hain:**
+
+| Bottleneck | Fix |
+|---|---|
+| High latency under load | Continuous batching (vLLM), prompt caching, streamed responses |
+| Rising token cost at scale | Prompt caching + smaller routing model for easy queries + semantic cache in Redis |
+| Vector search slowdown | Sharding + replica sets, hybrid search with metadata pre-filtering |
+| Silent quality regressions | Langfuse traces + LLM-as-judge gating in CI before every deploy |
+| Cascading tool/API failures | Exponential backoff retries, circuit breakers, LangGraph checkpoint-resume |
+| Runaway autonomous actions | Human-in-the-loop approval gate before any irreversible tool call |
+| Multi-provider lock-in | LiteLLM/Portkey gateway abstraction — swap Anthropic ↔ OpenAI ↔ open models without rewriting agent code |
 
 <br/>
 
