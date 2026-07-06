@@ -304,25 +304,56 @@ Transport: stdio  |  Server: FastAPI + Python
 ## 🛠️ Tech Stack
 
 ### 🤖 AI / LLM Layer *(Core Focus)*
-<p>
-  <img src="https://img.shields.io/badge/Anthropic_API-D97706?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/LangGraph-4A90D9?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/LangSmith-1C3C3C?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/ChromaDB-FF6B35?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
-  <img src="https://img.shields.io/badge/MCP_Protocol-6366F1?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/RAG_Pipelines-0EA5E9?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/Agentic_AI-EF4444?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/Prompt_Engineering-10B981?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/LLM_Evaluation-8B5CF6?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vector_DB-8B5CF6?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" />
-  <img src="https://img.shields.io/badge/CrewAI-FF4B4B?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/vLLM-10B981?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/Langfuse-000000?style=for-the-badge&logoColor=white" />
-</p>
+
+<table align="center">
+<tr>
+<td><img src="https://img.shields.io/badge/Anthropic_API-D97706?style=for-the-badge&logoColor=white"/></td>
+<td><img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logoColor=white"/></td>
+<td><img src="https://img.shields.io/badge/LangGraph-4A90D9?style=for-the-badge&logoColor=white"/></td>
+<td><img src="https://img.shields.io/badge/LangSmith-1C3C3C?style=for-the-badge&logoColor=white"/></td>
+<td><img src="https://img.shields.io/badge/ChromaDB-FF6B35?style=for-the-badge&logoColor=white"/></td>
+<td><img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/></td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/MCP_Protocol-6366F1?style=for-the-badge&logoColor=white"/></td>
+<td><img src="https://img.shields.io/badge/RAG_Pipelines-0EA5E9?style=for-the-badge&logoColor=white"/></td>
+<td><img src="https://img.shields.io/badge/Agentic_AI-EF4444?style=for-the-badge&logoColor=white"/></td>
+<td><img src="https://img.shields.io/badge/Prompt_Engineering-10B981?style=for-the-badge&logoColor=white"/></td>
+<td><img src="https://img.shields.io/badge/LLM_Evaluation-8B5CF6?style=for-the-badge&logoColor=white"/></td>
+<td><img src="https://img.shields.io/badge/Vector_DB-8B5CF6?style=for-the-badge&logoColor=white"/></td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white"/></td>
+<td><img src="https://img.shields.io/badge/CrewAI-FF4B4B?style=for-the-badge&logoColor=white"/></td>
+<td><img src="https://img.shields.io/badge/vLLM-10B981?style=for-the-badge&logoColor=white"/></td>
+<td><img src="https://img.shields.io/badge/Langfuse-000000?style=for-the-badge&logoColor=white"/></td>
+<td><img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/></td>
+<td><img src="https://img.shields.io/badge/DeepSeek-4D6BFE?style=for-the-badge&logo=deepseek&logoColor=white"/></td>
+</tr>
+</table>
+
+### 🧑‍💻 AI Coding Agents & Frontier Models *(Daily Drivers)*
+
+<table align="center">
+<tr>
+<td><img src="https://img.shields.io/badge/Claude-D97706?style=for-the-badge&logo=claude&logoColor=white"/></td>
+<td><img src="https://img.shields.io/badge/Claude_Code-D97706?style=for-the-badge&logo=claude&logoColor=white"/></td>
+<td><img src="https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white"/></td>
+<td><img src="https://img.shields.io/badge/GitHub_Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white"/></td>
+<td><img src="https://img.shields.io/badge/OpenAI_Codex-000000?style=for-the-badge&logo=openai&logoColor=white"/></td>
+<td><img src="https://img.shields.io/badge/Antigravity-4285F4?style=for-the-badge&logo=google&logoColor=white"/></td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/Grok-000000?style=for-the-badge&logoColor=white"/></td>
+<td><img src="https://img.shields.io/badge/Z.AI_GLM_5.2-6366F1?style=for-the-badge&logoColor=white"/></td>
+<td><img src="https://img.shields.io/badge/Kimi_K2-FF6B35?style=for-the-badge&logoColor=white"/></td>
+<td><img src="https://img.shields.io/badge/Qwen-615CED?style=for-the-badge&logoColor=white"/></td>
+<td><img src="https://img.shields.io/badge/DeepSeek-4D6BFE?style=for-the-badge&logo=deepseek&logoColor=white"/></td>
+<td><img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logoColor=white"/></td>
+</tr>
+</table>
+
+> ⚠️ Note: `skillicons.dev` (jo neeche table mein use ho raha hai) abhi in AI-tool logos ko support nahi karta — isliye yeh table shields.io badges se banaya hai, uske apne icon library se nahi. Functionally same "icon grid" look hai, bas source alag hai.
 
 ### ⚙️ Backend & APIs
 <p>
