@@ -279,9 +279,11 @@ Transport: stdio  |  Server: FastAPI + Python
   <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" />
 </p>
 
-| Category | Tool | Why it matters (fresher ko yeh pata hona chahiye) |
+| Category | Tool | Why it matters (A fresher should know this.) |
 |---|---|---|
 | **Orchestration** | LangGraph | Graph-based state machine — checkpointing, retries, human-in-the-loop. Most production-mature framework going into 2026, used by Klarna/Uber/LinkedIn-scale teams |
+| **Orchestration** | PydanticAI | Fast becoming the industry standard for type-safe, production-ready structured agentic workflows.
+| **Orchestration** | smolagents | Hugging Face's native code-agent paradigm, prioritizing pure code execution over messy JSON orchestration.
 | **Orchestration** | Claude Agent SDK | Anthropic-native — same architecture that powers Claude Code (hooks, MCP, sub-agents, skills) |
 | **Orchestration** | CrewAI | Role-based multi-agent crews — fastest path from idea → working prototype |
 | **Orchestration** | AutoGen / AG2 / Microsoft Agent Framework | Conversational multi-agent debate + consensus patterns |
@@ -456,11 +458,11 @@ Kubernetes / Render / Railway    (Horizontal Pod Autoscaling)
 
 ## 💼 Experience — 6 Internships
 
-| # | Company | Role | Domain | Key Engineering Impact
+| # | Company | Role | Domain | 
 |---|---------|------|--------|
-| 6 | **Codevirus Security** | Security + AI Integration | Cybersecurity | Build Company Intenal Tools And Improve Productivity
-| 5 | **Code-A-Nova** | AI Developer Intern | AI / ML | Build Chatbot 
-| 4 | **Klynt Solutions** | Full-Stack + AI Intern | Product | Integrated Rest API internal databases
+| 6 | **Codevirus Security** | Security + AI Integration | Cybersecurity | 
+| 5 | **Code-A-Nova** | AI Developer Intern | AI / ML | 
+| 4 | **Klynt Solutions** | Full-Stack + AI Intern | Product | 
 | 3 | **HexSoftwares** | Software Developer Intern | Full-Stack |
 | 2 | **Google Developer Campus** | Developer Intern | Cloud / Dev |
 | 1 | *(Earlier Internship)* | Web Development | Frontend |
