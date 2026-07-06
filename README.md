@@ -80,7 +80,7 @@ class AbhishekYadav:
         "LLM":         ["Anthropic API", "LangChain", "LangGraph", "ChromaDB", "LangSmith"],
         "Agentic":     ["LangGraph", "PydanticAI", "smolagents", "Claude Agent SDK", "MCP" ],
         "MLOps":       ["Langfuse", "vLLM", "LiteLLM", "Redis Caching", "RAGAS Evals"],
-        "Infra":       ["FastAPI", "Docker", "Kubernetes", "HuggingFace Spaces", "Railway"],
+        "Infra":       ["FastAPI", "Docker", "Kubernetes", "AWS", "EKS Cluster", "HuggingFace Spaces", "Railway"],
         "Languages":   ["Python", "TypeScript", "JavaScript"],
     }
 
