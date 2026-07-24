@@ -42,8 +42,8 @@
 
 <!-- QUICK STATS ROW -->
 <p align="center">
-  <img src="https://img.shields.io/badge/🏅_Anthropic_Certs-11x-D97706?style=flat-square" />&nbsp;
-  <img src="https://img.shields.io/badge/💼_Internships-6x-0EA5E9?style=flat-square" />&nbsp;
+  <img src="https://img.shields.io/badge/🏅_Anthropic_Certification-D97706?style=flat-square" />&nbsp;
+  <img src="https://img.shields.io/badge/💼_Internships-0EA5E9?style=flat-square" />&nbsp;
   <img src="https://img.shields.io/badge/🚀_Live_Projects-HuggingFace_Deployed-10B981?style=flat-square" />&nbsp;
   <img src="https://img.shields.io/badge/📍_Location-Kanpur,_India-EF4444?style=flat-square" />
 </p>
@@ -63,12 +63,12 @@ class AbhishekYadav:
     """AI Engineer | BCA @ CSJMU Kanpur (2022–2025) | CGPA: 7.59"""
 
     role       = "AI Engineer"
-    location   = "Kanpur, Uttar Pradesh, India 🇮🇳"
+    location   = "India 🇮🇳"
 
     specializations = [
         "3-Stage RAG:      Retrieval → Hybrid Search + RRF → Agentic Generation",
         "Agentic AI:       Chaining | Routing | Parallelization | Evaluator-Optimizer",
-        "Autonomous Sys:   Perceive-Plan-Act-Reflect Loops with Human-in-the-Loop Gates",
+        "Autonomous System:   Perceive-Plan-Act-Reflect Loops with Human-in-the-Loop Gates",
         "MCP Protocol:     Custom Tool Servers + Claude Orchestration (stdio/SSE)",
         "LLM Eng:          Prompt Caching | Files API | Extended Thinking | Batch",
         "Multi-Agent:      LangGraph / CrewAI Orchestration with Tool-Augmented Workflows",
@@ -84,8 +84,8 @@ class AbhishekYadav:
         "Languages":   ["Python", "TypeScript", "JavaScript"],
     }
 
-    certifications = "11x Anthropic Academy 🏅"
-    internships    = 6
+    certifications = " Anthropic Academy 🏅, Open AI Academy, LangChain Community "
+    internships    = 5
     deployed_live  = "https://huggingface.co/spaces/abhishekyadav16/abhishekyadav16"
     seeking        = ["Remote", "Bengaluru", "Hyderabad", "Noida"]
 
@@ -347,8 +347,8 @@ Transport: stdio  |  Server: FastAPI + Python
 </tr>
 <tr>
 <td><img src="https://img.shields.io/badge/Grok-000000?style=for-the-badge&logoColor=white"/></td>
-<td><img src="https://img.shields.io/badge/Z.AI_GLM_5.2-6366F1?style=for-the-badge&logoColor=white"/></td>
 <td><img src="https://img.shields.io/badge/Kimi_K2-FF6B35?style=for-the-badge&logoColor=white"/></td>
+<td><img src="https://img.shields.io/badge/Z.AI_GLM_5.2-6366F1?style=for-the-badge&logoColor=white"/></td>.
 <td><img src="https://img.shields.io/badge/Qwen-615CED?style=for-the-badge&logoColor=white"/></td>
 <td><img src="https://img.shields.io/badge/DeepSeek-4D6BFE?style=for-the-badge&logo=deepseek&logoColor=white"/></td>
 <td><img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logoColor=white"/></td>
@@ -425,7 +425,7 @@ Kubernetes / Render / Railway    (Horizontal Pod Autoscaling)
 <!--                   CERTIFICATIONS                           -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-## 📜 Certifications — 11x Anthropic Academy 🏅
+## 📜 Certifications — Anthropic Academy 🏅
 
 <table>
 <tr>
@@ -460,12 +460,11 @@ Kubernetes / Render / Railway    (Horizontal Pod Autoscaling)
 
 | # | Company | Role | Domain | 
 |---|---------|------|--------|
-| 6 | **Codevirus Security** | Security + AI Integration | Cybersecurity | 
-| 5 | **Code-A-Nova** | AI Developer Intern | AI / ML | 
-| 4 | **Klynt Solutions** | Full-Stack + AI Intern | Product | 
-| 3 | **HexSoftwares** | Software Developer Intern | Full-Stack |
-| 2 | **Google Developer Campus** | Developer Intern | Cloud / Dev |
-| 1 | *(Earlier Internship)* | Web Development | Frontend |
+| 5 | **Codevirus Security** | Security + AI Integration | Cybersecurity | 
+| 4 | **Code-A-Nova** | AI Developer Intern | AI / ML | 
+| 3 | **Klynt Solutions** | Full-Stack + AI Intern | Product | 
+| 2 | **HexSoftwares** | Software Developer Intern | Full-Stack |
+| 1 | **Google Developer Campus** | Developer Intern | Cloud / Dev |
 
 <br/>
 
