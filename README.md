@@ -18,7 +18,7 @@
 <!--                    SOCIAL LINKS                            -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 <p align="center">
-  <a href="https://3-d-portfolio.vercel.app/" target="_blank">
+  <a href="https://3-d-protfolio.vercel.app/" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=googlechrome&logoColor=white" />
   </a>&nbsp;
   <a href="https://www.linkedin.com/in/abhishek-yadav72/" target="_blank">
